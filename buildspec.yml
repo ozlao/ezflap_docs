@@ -14,9 +14,13 @@ phases:
   build:
     commands:
       - npm run build
+      - mkdir dep
+      - mkdir dep/version1
+      - mv src/.vuepress/dist/* dep/version1/
 
 artifacts:
   files:
     - '**/*'
   discard-paths: no
-  base-directory: 'docs/src/.vuepress/dist'
+  #base-directory: 'docs/src/.vuepress/dist'
+  base-directory: 'docs/dep'
