@@ -17,6 +17,6 @@ phases:
 
 artifacts:
   base-directory: 'docs/src/.vuepress/dist'
-  files:
-    - '**/*'
+  #files:
+  #  - '**/*'
   #name: BuildArtifact
