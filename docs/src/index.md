@@ -4,7 +4,7 @@
   heroImage: "/MediumSquareLogo.jpg",
   tagline: "Reactive Markup for Flutter.",
   actionText: "Start Here →",
-  actionLink: "/docs/",
+  actionLink: "/essentials/introduction/introduction",
   features: [
     {
       title: "Write UI with XML",

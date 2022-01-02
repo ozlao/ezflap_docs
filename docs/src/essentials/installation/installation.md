@@ -17,7 +17,7 @@ That's it!
 
 ## ezFlap Docs
 If you are a first time ezFlap user - it is **highly recommended** to clone the documentation examples project and play
-with it while reading the [documentation](/docs).
+with it while reading the [documentation](/essentials/introduction/introduction).
 
 Visit the [ezFlap Docs repository](https://github.com/ozlao/ezflap_docs) or use these commands: 
 ```bash
