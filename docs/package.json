@@ -1,0 +1,20 @@
+{
+  "name": "ezflap",
+  "version": "0.0.1",
+  "description": "Reactive Markup for Flutter.",
+  "main": "index.js",
+  "authors": {
+    "name": "Oz",
+    "email": "oz@ezflap.io"
+  },
+  "repository": "https://github.com/ozlao/ezflap/ezFlap",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-seo": "^0.1.4"
+  }
+}
