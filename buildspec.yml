@@ -19,4 +19,4 @@ artifacts:
   base-directory: 'docs/src/.vuepress/dist'
   files:
     - '**/*'
-  name: BuildArtifact
+  #name: BuildArtifact
