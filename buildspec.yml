@@ -16,7 +16,7 @@ phases:
       - npm run build
 
 artifacts:
-  base-directory: 'docs/src/.vuepress/dist'
-  #files:
-  #  - '**/*'
-  #name: BuildArtifact
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: 'src/.vuepress/dist'
