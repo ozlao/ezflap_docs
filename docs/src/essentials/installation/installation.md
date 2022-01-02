@@ -33,7 +33,7 @@ dart run build_runner watch --delete-conflicting-outputs
 
 
 ## ezFlap Core Widgets
-To use the [ezFlap Core Widgets](/deep-dive/core-widgets/core-widgets) - add it to your project:
+To use the [ezFlap Core Widgets](/deep-dive/core-widgets/core-widgets.html) - add it to your project:
 ```bash
 flutter pub add ezflap_widgets
 flutter pub get

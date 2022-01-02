@@ -3,7 +3,7 @@
 ## Android Studio / IntelliJ IDEA
 ezFlap's own source code and examples use tabs instead of spaces, and are not formatted with `dartfmt`.
 
-The reasons for this are explained in [Code Style](/misc/code-style/code-style).
+The reasons for this are explained in [Code Style](/misc/code-style/code-style.html).
 
 ::: tip YOU DO YOU
 When using ezFlap, you can follow Google's standard conventions if you prefer.

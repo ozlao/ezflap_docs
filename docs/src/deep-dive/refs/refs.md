@@ -87,7 +87,7 @@ Optional suggested conventions:
  * Place the `@EzRef` and `@EzRefs` annotations at the same line as the declaration.
  * Add a `// --> this._ref_<Assigned Name>` comment at the end of every ref field declaration.
  * Add a `// --> this._refs_<Assigned Name>` comment at the end of every refs field declaration.
- * Use [Live Templates](/tooling/live-templates/live-templates) to generate ref and refs declarations quickly and
+ * Use [Live Templates](/tooling/live-templates/live-templates.html) to generate ref and refs declarations quickly and
    consistently, and without having to remember the syntax.
 
 

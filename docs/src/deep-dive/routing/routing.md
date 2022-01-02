@@ -32,7 +32,7 @@ Strongly-recommended conventions that may become mandatory in a future version:
 Optional suggested conventions:
  * Place the `@EzRouteParam` annotation at the same line as the declaration.
  * Add a `// --> this._route_<Assigned Name>` comment at the end of every route param field declaration.
- * Use [Live Templates](/tooling/live-templates/live-templates) to generate route param declarations quickly and
+ * Use [Live Templates](/tooling/live-templates/live-templates.html) to generate route param declarations quickly and
    consistently, and without having to remember the syntax.
 
 

@@ -63,7 +63,7 @@ Strongly-recommended conventions that may become mandatory in a future version:
 Optional suggested conventions:
  * Place the `@EzMethod` above the method declaration.
  * Prefix the bound method's method name with `_bound` (e.g. `_boundGetTaskDescription()`).
- * Use [Live Templates](/tooling/live-templates/live-templates) to generate bound method declarations quickly and
+ * Use [Live Templates](/tooling/live-templates/live-templates.html) to generate bound method declarations quickly and
    consistently, and without having to remember the syntax.
 
 
@@ -135,7 +135,7 @@ We can implement this by creating a bound method that returns a method:
 
 ::: tip A BETTER WAY
 There is a better way to do such things, and avoid creating a bound method that returns a function, by using
-[ezFlap Widgets](/core-widgets/core-widgets) and [z-on](/deep-dive/events/events.html#z-on).
+[ezFlap Widgets](/core-widgets/core-widgets.html) and [z-on](/deep-dive/events/events.html#z-on).
 :::
 
 

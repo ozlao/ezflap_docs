@@ -14,7 +14,7 @@ It is possible to render native widgets using regular ZML widget tags.
 Third-party widgets (i.e. widgets that are not built into Flutter) can be used this way as well - as long as their
 libraries are imported into the ezFlap widget file.
 
-[ZBuild](/advanced/z-build/z-build) can also be used to embed widgets generated the "native" way in the ZML.
+[ZBuild](/advanced/z-build/z-build.html) can also be used to embed widgets generated the "native" way in the ZML.
 
 
 ## Use in Native Widgets
@@ -40,7 +40,7 @@ ezFlap:
  * `initProp` - initialize an `@Ezprop`.
  * `initModel` - initialize an `@EzModel` or an `@EzOptionalModel`, using a getter and a setter functions.
  * `initEmitHandler` - initialize an `@EzEmit` with an event handler function.
- * `initInterpolatedText` - sets the [Interpolated Text](/advanced/interpolated-text/interpolated-text) of the widget.
+ * `initInterpolatedText` - sets the [Interpolated Text](/advanced/interpolated-text/interpolated-text.html) of the widget.
 
 #### Hostee
 ![InteroperabilityInteractiveHostee](./assets/InteroperabilityInteractiveHostee.png)

@@ -51,7 +51,7 @@ In other words, the object's internal state needs to be reactive in order for ch
 widget's `build()` method.
 
 ezFlap supports the reactive types offered by the [GetX](https://pub.dev/packages/get) library: _Rx_, _RxList_, _RxSet_,
-and _RxMap_ (covered in detail in [Reactive Data Entities](/deep-dive/reactive-data-entities/reactive-data-entities)).
+and _RxMap_ (covered in detail in [Reactive Data Entities](/deep-dive/reactive-data-entities/reactive-data-entities.html)).
 
 [GetX](https://pub.dev/packages/get) is also used internally by ezFlap.
 
@@ -71,7 +71,7 @@ instances - these changes would not be reactive, and so would not update the UI.
 To make it reactive, we need to make some small changes.
 
 These changes, as well as the [GetX](https://pub.dev/packages/get) reactive classes are covered in
-[Reactive Data Entities](/deep-dive/reactive-data-entities/reactive-data-entities).
+[Reactive Data Entities](/deep-dive/reactive-data-entities/reactive-data-entities.html).
 ::: 
 
 
@@ -114,7 +114,7 @@ Strongly-recommended conventions that may become mandatory in a future version:
 Optional suggested conventions:
  * Place the `@EzComputed` above the method declaration.
  * Prefix the computed method's method name with `_computed` (e.g. `_computedTotalTasks()`).
- * Use [Live Templates](/tooling/live-templates/live-templates) to generate computed method declarations quickly and
+ * Use [Live Templates](/tooling/live-templates/live-templates.html) to generate computed method declarations quickly and
    consistently, and without having to remember the syntax.
 
 

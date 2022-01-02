@@ -8,7 +8,7 @@ Live Templates allow to define shortcuts that can be automatically expanded when
 Live Templates can also include parameters. In such case, when expanded, we are prompted to fill them out, one by one.
 
 This chapter offers Live Templates for:
- * [Pink Sections](/tooling/pink-sections/pink-sections).
+ * [Pink Sections](/tooling/pink-sections/pink-sections.html).
  * ezFlap annotations.
 
 Read more about Live Templates in [JetBrains' documentation](https://www.jetbrains.com/help/idea/using-live-templates.html)

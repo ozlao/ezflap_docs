@@ -40,9 +40,9 @@ The `@EzWatch` annotation accepts a single parameter: the Assigned Name of the v
 Watches can watch any type of reactive value:
  * Bound fields.
  * Computed methods.
- * Props (covered later, in [Props](/deep-dive/props/props)).
- * Models (covered later, in [z-model](/deep-dive/z-model/z-model)).
- * Route parameters (covered later, in [Route Params](/deep-dive/routing/routing)).
+ * Props (covered later, in [Props](/deep-dive/props/props.html)).
+ * Models (covered later, in [z-model](/deep-dive/z-model/z-model.html)).
+ * Route parameters (covered later, in [Route Params](/deep-dive/routing/routing.html)).
 
 
 ## Caution
@@ -52,11 +52,11 @@ It's generally best to avoid watches.
  * Watches are implicit; they make the flow and logic more difficult to reason about.
  * When multiple watches are invoked following a value update - the order in which they are invoked is undefined.
  * It is almost always better to use Computed methods, Bound fields, and to explicitly react to changes using events
-   (with `z-on`, which is covered later, in [z-on]()).
+   (with `z-on`, which is covered later, in [z-on](/deep-dive/events/events.html#z-on)).
 :::
 
 One scenario in which watches are useful is when we need to imperatively invoke a function when a
-[Prop](/deep-dive/props/props) changes.
+[Prop](/deep-dive/props/props.html) changes.
 
 ::: warning WATCHES ACCESS THEIR WATCHEES
 Watches access the data they watch after `hookInitState()` is invoked.

@@ -18,6 +18,6 @@ If you decide to get involved with the development, please:
  * Follow the ezFlap code style. Most importantly:
    * Use tabs.
    * Don't pass the code through `dartfmt`.
-     * [Why?](/misc/code-style/code-style)
+     * [Why?](/misc/code-style/code-style.html)
 
-However you choose to contribute, please follow the [Code of Conduct](/misc/code-of-conduct/code-of-conduct).
+However you choose to contribute, please follow the [Code of Conduct](/misc/code-of-conduct/code-of-conduct.html).

@@ -93,7 +93,7 @@ these selectors.
 
 It is optional, and will not be used in the first several chapters of this guide.
 
-It will be covered thoroughly in [ZSS](/essentials/zss/zss).
+It will be covered thoroughly in [ZSS](/essentials/zss/zss.html).
 :::
 
 The generated code is written into a file named `<classs file name>.g.dart` (for example: `MyApp.g.dart` in MyApp
@@ -213,7 +213,7 @@ It will generate something like this:
    * Text interpolation.
    * And more!
    
-Learn all about it in [ZML](/essentials/zml/zml).
+Learn all about it in [ZML](/essentials/zml/zml.html).
 
 ## Annotations
 Annotations are used to tell ezFlap about the special purpose of certain elements in the code.
@@ -296,7 +296,7 @@ When using such annotations, the convention is to add a comment at the end of th
 
 This comment reminds us the actual name to use if we need to access the field from the code.
 
-Import the [ezFlap Live Templates](/tooling/live-templates/live-templates) for Android Studio/IntelliJ IDEA.
+Import the [ezFlap Live Templates](/tooling/live-templates/live-templates.html) for Android Studio/IntelliJ IDEA.
 
 They will take care of the annotations syntax, and also add such comments automatically, for annotations that need it. 
 :::
@@ -359,9 +359,9 @@ The widget in which we put the `z-if` will be rendered only if the Dart expressi
 The `z-if` expression can reference:
  * `@EzField` fields by their Assigned Name.
  * `@EzMethod` methods, also by their Assigned Name.
- * Other elements that will be introduced soon, in the [ZML](/essentials/zml/zml) chapter.
+ * Other elements that will be introduced soon, in the [ZML](/essentials/zml/zml.html) chapter.
 
-[z-if](/essentials/conditional-rendering/conditional-rendering#z-if) is covered in more detail later in this guide.
+[z-if](/essentials/conditional-rendering/conditional-rendering.html#z-if) is covered in more detail later in this guide.
 
 ### `z-for`
 The value of the `z-for` attribute has a special syntax, similar to `v-for` and `ngFor` in Vuejs and Angular.
@@ -373,7 +373,7 @@ The above code renders:
 
 ![ZForResult.png](./assets/ZForResult.png)
 
-[z-for](/essentials/conditional-rendering/conditional-rendering#z-for) is covered in more detail later in this guide.
+[z-for](/essentials/conditional-rendering/conditional-rendering.html#z-for) is covered in more detail later in this guide.
 
 ## Pink Sections
 By convention, an ezFlap widget is divided into sections.
@@ -393,10 +393,10 @@ This convention is followed throughout this documentation, but it's optional.
 ::: tip CONVENTION
 Divide ezFlap widgets into Pink Sections.
 
-Use [Live Templates](/tooling/live-templates/live-templates) to add them easily. No need to
+Use [Live Templates](/tooling/live-templates/live-templates.html) to add them easily. No need to
 memorize them!
 
-Head over to [Pink Sections](/tooling/pink-sections/pink-sections) to read about all the types of pink sections, and to
+Head over to [Pink Sections](/tooling/pink-sections/pink-sections.html) to read about all the types of pink sections, and to
 find instructions (and RGB!) to configure the Pink in Android Studio/IntelliJ IDEA.
 :::
 
@@ -406,8 +406,8 @@ This documentation is meant to be read in the order of the chapters.
 It is best to read it in order, because later parts depend on earlier parts.
 
 If you haven't installed the ezFlap package or the documentation examples project yet - now would be a good time to do
-that. Just follow the instructions in [Installation](/essentials/installation/installation).
+that. Just follow the instructions in [Installation](/essentials/installation/installation.html).
 
-To get fully set up, be sure to furnish your IDE with Pink Sections, Live Templates, and the such, in [Tooling](/tooling/tooling).
+To get fully set up, be sure to furnish your IDE with Pink Sections, Live Templates, and the such, in [Tooling](/tooling/tooling.html).
 
-Once you are all set up - proceed to the [ZML](/essentials/zml/zml) chapter.
+Once you are all set up - proceed to the [ZML](/essentials/zml/zml.html) chapter.

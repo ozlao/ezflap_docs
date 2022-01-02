@@ -2,7 +2,7 @@
 # Events
 
 ## Overview
-[Props](/deep-dive/props/props) allow top-down communication with the widget - the widget's host uses attributes to pass
+[Props](/deep-dive/props/props.html) allow top-down communication with the widget - the widget's host uses attributes to pass
 data down to the ezFlap widget using attributes.
 
 Events allow bottom-up communication with the host widget - the hosted widget emits events and the host widget can listen to
@@ -153,7 +153,7 @@ Strongly-recommended conventions that may become mandatory in a future version:
 Optional suggested conventions:
  * Place the `@EzEmit` annotation at the same line as the declaration.
  * Add a `// --> this._emit_<Assigned Name>` comment at the end of every event field declaration.
- * Use [Live Templates](/tooling/live-templates/live-templates) to generate event declarations quickly and
+ * Use [Live Templates](/tooling/live-templates/live-templates.html) to generate event declarations quickly and
    consistently, and without having to remember the syntax.
 
 

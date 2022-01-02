@@ -37,7 +37,7 @@ If:
  * You want to gradually add ezFlap to an existing codebase.
  * Or, you want to author ezFlap widgets that will also be usable in native Flutter widgets.
 
-Then read more about ezFlap [Interoperability](/advanced/interoperability/interoperability).
+Then read more about ezFlap [Interoperability](/advanced/interoperability/interoperability.html).
 :::
 
 ## Reactivity
@@ -59,7 +59,7 @@ Props can be declared in three variations: _late_, _Nullable_, and _Default Valu
 #### Example
 ![PropsSyntaxLate](./assets/PropsSyntaxLate.png)
 
-Like _late_ [Bound Fields](/essentials/bound-fields/bound-fields), _late_ Props must not be accessed before they are
+Like _late_ [Bound Fields](/essentials/bound-fields/bound-fields.html), _late_ Props must not be accessed before they are
 made available by the host widget.
 
 
@@ -88,7 +88,7 @@ Strongly-recommended conventions that may become mandatory in a future version:
 Optional suggested conventions:
  * Place the `@EzProp` annotation at the same line as the declaration.
  * Add a `// --> this._prop_<Assigned Name>` comment at the end of every field declaration.
- * Use [Live Templates](/tooling/live-templates/live-templates) to generate prop declarations quickly and
+ * Use [Live Templates](/tooling/live-templates/live-templates.html) to generate prop declarations quickly and
    consistently, and without having to remember the syntax.
 
 

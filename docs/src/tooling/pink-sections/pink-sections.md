@@ -43,7 +43,7 @@ The pink section labels are just regular Dart comments and have no effect on ezF
 Import Android Studio/IntelliJ IDEA Live Templates to be able to start typing the Live Template Shortcut of the desired
 Pink Section, and have the Pink Section auto-completed for you.
 
-Get the import file and instructions in [Live Templates](/tooling/live-templates/live-templates).
+Get the import file and instructions in [Live Templates](/tooling/live-templates/live-templates.html).
 
 
 ## How to Configure

@@ -159,5 +159,5 @@ instance is handled automatically for us, by the generated code.
 
 ::: tip THERE'S MORE TO IT
 In addition to making data classes more convenient to use, `@EzReactive` is also designed to work well with ezFlap's
-[JSON classes](/deep-dive/json/json).
+[JSON classes](/deep-dive/json/json.html).
 :::

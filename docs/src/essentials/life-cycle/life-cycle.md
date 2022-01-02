@@ -57,7 +57,7 @@ automatically, by ezFlap, when the widget is disposed, and will cancel the _Time
 ### Disposal Steps
 When an ezFlap widget is disposed, ezFlap performs the following actions:
  * Set life-cycle state to **Disposing**.
- * Clear `@EzRef` and `@EzRefs` parent widget references to the disposing widget (more details in [Refs](/deep-dive/refs/refs)).
+ * Clear `@EzRef` and `@EzRefs` parent widget references to the disposing widget (more details in [Refs](/deep-dive/refs/refs.html)).
  * Call `hookDispose()` (see below).
  * Invoke disposal callbacks (that were previously registered with `onDispose()`).
    * In reverse order: the callback that was registered first will be called last.

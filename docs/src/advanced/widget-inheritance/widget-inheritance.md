@@ -33,7 +33,7 @@ The ZSS of a parent widget is applied only to the ZML of the parent.
 ::: warning PARENT ZSS IS NOT APPLIED TO CHILDREN
 The ZSS applied to a parent widget is not (automatically) applied to ZML of children widgets.
 
-To apply it, reference the ZML in `@EzWidget` or move it to a ZSS file. See more information in [ZSS](/essentials/zss/zss).
+To apply it, reference the ZML in `@EzWidget` or move it to a ZSS file. See more information in [ZSS](/essentials/zss/zss.html).
 :::
 
 

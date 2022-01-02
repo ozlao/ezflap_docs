@@ -2,10 +2,10 @@
 # Models
 
 ## Overview
-[Props](/deep-dive/props/props) allow top-down communication with the widget - the widget's host uses attributes to pass
+[Props](/deep-dive/props/props.html) allow top-down communication with the widget - the widget's host uses attributes to pass
 data down to the hosted widget using attributes.
 
-[Events](/deep-dive/events/events) allow bottom-up communication with the host widget - the hosted widget emits events and the
+[Events](/deep-dive/events/events.html) allow bottom-up communication with the host widget - the hosted widget emits events and the
 host widget can listen to them.
 
 Models allow bi-directional communication by letting both the host and the hosted widgets update and read the same
@@ -21,7 +21,7 @@ synchronize the text entered by the user with the host widget using `z-model`:
 
 In the above example, a text field appears, and the text that is typed in it is rendered underneath.
 
-Read about _EzTextField_ and other useful ezFlap core widgets in [Core Widgets](/deep-dive/core-widgets/core-widgets).
+Read about _EzTextField_ and other useful ezFlap core widgets in [Core Widgets](/deep-dive/core-widgets/core-widgets.html).
 
 The syntax of using `z-model` as a whole attribute rather than a prefix is explained under [Syntax](#syntax) below.
 :::
@@ -116,7 +116,7 @@ Strongly-recommended conventions that may become mandatory in a future version:
 Optional suggested conventions:
  * Place the `@EzModel` and `@EzOptionalModel` annotations at the same line as the declaration.
  * Add a `// --> this._model_<Assigned Name>` comment at the end of every model field declaration.
- * Use [Live Templates](/tooling/live-templates/live-templates) to generate model declarations quickly and
+ * Use [Live Templates](/tooling/live-templates/live-templates.html) to generate model declarations quickly and
    consistently, and without having to remember the syntax.
 
 
