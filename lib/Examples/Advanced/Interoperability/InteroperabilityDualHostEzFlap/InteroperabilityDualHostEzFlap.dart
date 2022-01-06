@@ -1,7 +1,6 @@
 
 import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_docs/Examples/Advanced/Interoperability/InteroperabilityDualHostee/InteroperabilityDualHostee.dart';
-import 'package:ezflap_widgets/ezflap_widgets.dart';
 import 'package:flutter/material.dart';
 
 part 'InteroperabilityDualHostEzFlap.g.dart';

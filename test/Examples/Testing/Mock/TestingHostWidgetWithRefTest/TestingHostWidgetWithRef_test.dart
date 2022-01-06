@@ -3,6 +3,7 @@ import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_docs/Examples/Testing/Mock/TestingHostWidgetWithRef/TestingHostWidgetWithRef.dart';
 import 'package:ezflap_docs/Examples/Testing/Mock/TestingHostedWidgetForRef/TestingHostedWidgetForRef.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 class Mock_TestingHostedWidgetForRefState extends MockWidgetStateBase
 	implements ITestingHostedWidgetForRefState

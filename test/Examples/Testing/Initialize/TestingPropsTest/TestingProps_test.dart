@@ -2,6 +2,7 @@
 import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_docs/Examples/Testing/Initialize/TestingProps/TestingProps.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 void main() {
 	testWidgets("TestingProps_test", (WidgetTester tester) async {
