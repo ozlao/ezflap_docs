@@ -50,3 +50,5 @@ This section shows how to manually configure IDEA to use tabs.
 	</code_scheme>
 </component>
 ```
+
+ * When done - close and re-open the project.

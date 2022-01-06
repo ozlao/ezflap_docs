@@ -11,6 +11,6 @@ This repository contains:
 ![IntroductionPlayerScreen.png](./docs/src/essentials/introduction/assets/IntroductionPlayerScreen.png)
 
 Related resources:
- * [ezFlap documentation](https://www.ezflap.io/docs)
+ * [ezFlap documentation](https://www.ezflap.io/essentials/introduction/introduction.html)
  * [ezFlap pub.dev package](https://pub.dev/packages/ezflap)
  * [ezFlap GitHub repository](https://github.com/ozlao/ezflap)

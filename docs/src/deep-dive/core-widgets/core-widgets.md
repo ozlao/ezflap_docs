@@ -137,6 +137,18 @@ All Core Widgets are listed below, in alphabetical order.
 
 
 
+## EzGestureDetector
+ * Wraps: **GestureDetector**
+ * Events:
+   * Emits events for all `on*` callbacks that can be provided to the native _GestureDetector_ (e.g. `tapDown`,
+     `tapUp`, `tap`, `forcePressPeak`, `scaleStart`, etc.).
+
+#### Example
+![CoreWidgetsEzGestureDetector](./assets/CoreWidgetsEzGestureDetector.png)
+
+
+
+
 ## EzIconButton
  * Wraps: **IconButton**
  * Special inputs:
@@ -156,6 +168,22 @@ All Core Widgets are listed below, in alphabetical order.
 #### Example
 ![CoreWidgetsEzIconButton](./assets/CoreWidgetsEzIconButton.png)
 
+
+
+
+
+## EzListTile
+ * Wraps: **ListTile**
+ * Events:
+   * Emits `tap`.
+     * Signature: `void Function()`.
+     * Emitted when the tile is tapped.
+   * Emits `longPress`.
+     * Signature: `void Function()`.
+     * Emitted when the tile is long-pressed.
+
+#### Example
+![CoreWidgetsEzListTile](./assets/CoreWidgetsEzListTile.png)
 
 
 
