@@ -209,3 +209,51 @@ instance of _WidgetMockFactory_, which is passed a factory function that instant
 `funcCreateMockWidgetState` constructor parameter:
 
 ![TestingHostWidgetWithRefTest](./assets/TestingHostWidgetWithRefTest.png)
+
+
+### Interact with Mocked or Disabled Hosted Widget
+_WidgetWrapper_ offers method to access and interact with mocked or "disabled" hosted widgets.
+
+The below example shows how to check that the desired prop values were provided by a hosted widget to a hosted widget
+that has been disabled.
+
+#### Hosted Widget
+The to-be-disabled hosted widget has a couple of props defined.
+
+![TestingAccessDisabledHostedWidget](./assets/TestingAccessDisabledHostedWidget.png)
+
+
+#### Host Widget
+The host widget provides values for the hosted widget's props.
+
+![TestingAccessDisabledHostWidget](./assets/TestingAccessDisabledHostWidget.png)
+
+
+#### Test
+The test disables the hosted widget by using the _WidgetMockFactory_ class instantiated with the defaults.
+
+Then, it gets the instance of _WidgetMock_ (described later), which provides utility methods for getting information
+concerning the mocked widget.
+
+Then, it verifies that both props were actually populated (i.e. by the host widget), and also verifies their values. 
+
+![TestingAccessDisabledHostWidgetTest](./assets/TestingAccessDisabledHostWidgetTest.png)
+
+
+#### _WidgetMock_
+The _WidgetMock_ class is created and initialized automatically by ezFlap, and is used as a container around a widget
+mock.
+
+It provides the following methods:
+ * `bool isPropPopulated(String assignedName)` - returns true if a prop with the Assigned Name `assignedName` was
+   populated (e.g. with a `z-bind` attribute).
+ * `dynamic getPropValue(String assignedName)` - returns the value the prop was populated with.
+   * Returns _null_ if the prop was not populated.
+
+_WidgetWrapper_ provides three methods that allow to retrieve _WidgetMock_ instances of the wrapped widget:
+ * `List<WidgetMock> getWidgetMocks(String widgetName)` - returns a _List_ with zero or more _WidgetMock_ instances of
+   the mocks of the widget with the name `widgetName`.
+ * `WidgetMock getSingleWidgetMock(String widgetName)` - returns a single _WidgetMock_ and throw exception if there are
+   no mock instances of `widgetName`, or if there are more than one.
+ * `WidgetMock? tryGetSingleWidgetMock(String widgetName)` - the same as `getSingleWidgetMock`, but returns _null_ if
+   there are zero or suitable multiple mock instances.

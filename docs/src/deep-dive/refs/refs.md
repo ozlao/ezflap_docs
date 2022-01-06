@@ -51,6 +51,9 @@ loop.
 
 In such cases, we use a _Map_ field and annotate it with the `@EzRefs` annotation.
 
+By default, the type of the _Map_'s key is _String_, but it can be overridden with the `keyType` parameter of the
+`@EzRefs` annotation.
+
 In the following example, we use the _RefsMultiHosted_ widget, which is identical to the _RefsSingleHosted_ from the
 previous section (but has a different name):
 

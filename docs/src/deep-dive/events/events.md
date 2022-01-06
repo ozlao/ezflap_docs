@@ -173,6 +173,15 @@ For example, the Derived Name of:
 Would be `_emit_pressed`.
 
 
+#### Check For Emit Handler Existence
+It is possible to check whether a particular emit handler is available (i.e. if one was provided by the host widget
+using `z-on`) with the `hasEmitHandler` method.
+
+Its signature: `bool hasEmitHandler(String emitKey)`.
+
+Pass the Assigned Name of the event as the `emitKey` to check if a `z-on` was provided for the event.
+
+
 ### From ZML
 Events can also be invoked directly from ZML, by assigning them to `z-on` or `z-bind` attributes:
 
