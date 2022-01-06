@@ -4,12 +4,13 @@
 Add ezFlap to your project:
 ```bash
 flutter pub add ezflap
+flutter pub add build_runner
 flutter pub get
 ```
 
 Run *build_runner* in _watch_ mode:
 ```bash
-dart run build_runner watch --delete-conflicting-outputs
+flutter pub run build_runner watch --delete-conflicting-outputs
 ```
 
 That's it!
@@ -28,7 +29,7 @@ flutter pub get
 
 Run *build_runner* in _watch_ mode:
 ```bash
-dart run build_runner watch --delete-conflicting-outputs
+flutter pub run build_runner watch --delete-conflicting-outputs
 ```
 
 

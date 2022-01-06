@@ -6,7 +6,7 @@ When ezFlap generates Dart code based on our ZML, ZSS, and annotations - it may 
 For example, if the ZML uses a widget whose library is not imported into the ezFlap widget file - ezFlap will not be
 able to generate the necessary code correctly.
 
-When ezFlap encounters a problem - it logs it into the console (the console where we run the `dart run build_runner watch`
+When ezFlap encounters a problem - it logs it into the console (the console where we run the `flutter pub run build_runner watch`
 command).
 
 In most cases, when encountering errors, ezFlap will try to generate *some* code with correct Dart syntax, to make it

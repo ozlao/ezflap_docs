@@ -49,6 +49,7 @@ It is highly recommended to clone the ezFlap Docs repository:
 git clone https://github.com/ozlao/ezflap_docs.git
 cd ezflap_docs
 flutter pub get
+flutter pub run build_runner watch --delete-conflicting-outputs
 ```
 
 The examples in this documentation are provided as images of code.
@@ -285,7 +286,7 @@ Therefore, if we need to access the field from our code, we access it as `_count
 And when we need to access it from ZML - we use the Assigned Name: `counter`.
 
 ::: tip CONVENTION
-ezFlap offers several different annotations for fields.
+ezFlap offers several annotations for fields.
 
 `@EzField` is one example, but there are others.
 
@@ -309,7 +310,7 @@ We do this with Dart's [Build Runner](https://pub.dev/packages/build_runner) too
 We run the following command in our project's root:
 
 ```bash
-dart run build_runner watch --delete-conflicting-outputs
+flutter pub run build_runner watch --delete-conflicting-outputs
 ```
 
 This command invokes *build_runner* and generates the `.g.dart` files (like our `MyApp.g.dart`).
