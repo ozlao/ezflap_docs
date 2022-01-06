@@ -3,7 +3,7 @@ description: ezFlap documentation and examples.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-version: 0.9.0
+version: 0.9.0+5
 
 environment:
   sdk: ">=2.15.0 <3.0.0"
@@ -17,11 +17,9 @@ dependencies:
   build_runner: ^2.0.6
   intl: ^0.17.0
 
-  ezflap:                     # forDevelopment
-    path: "../ezflap"         # forDevelopment
+  ezflap: ^0.9.0              # forRelease
 
-  ezflap_widgets:             # forDevelopment
-    path: "../ezflap_widgets" # forDevelopment
+  ezflap_widgets: ^0.9.0      # forRelease
 
 dev_dependencies:
   flutter_test:
