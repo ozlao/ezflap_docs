@@ -1,7 +1,6 @@
 
 import 'package:ezflap/ezflap.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:ezflap_docs/Examples/Essentials/Zss/SourceAnnotationSingle/SourceAnnotationSingleZss.dart';
 
 part 'SourceAnnotationSingle.g.dart';

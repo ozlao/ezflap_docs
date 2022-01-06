@@ -2,7 +2,6 @@
 import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_docs/Examples/DeepDive/Props/PropsOverview/PropsOverview.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 part 'PropsOverviewHost.g.dart';
 

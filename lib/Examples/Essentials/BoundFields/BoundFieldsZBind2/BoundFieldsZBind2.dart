@@ -2,7 +2,6 @@
 import 'dart:async';
 import 'package:ezflap/ezflap.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 part 'BoundFieldsZBind2.g.dart';
 

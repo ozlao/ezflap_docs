@@ -2,7 +2,6 @@
 import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_widgets/ezflap_widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 part 'CoreWidgetsEzListTile.g.dart';
 
