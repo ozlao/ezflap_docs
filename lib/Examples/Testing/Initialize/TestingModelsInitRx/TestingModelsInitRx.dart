@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'TestingModelsInitRx.g.dart';
 
 class TestingModelsInitRx extends EzStatefulWidgetBase {
+	TestingModelsInitRx({ Key? key }) : super(key: key);
+
 	@override
 	TestingModelsInitRxState createState() => TestingModelsInitRxState();
 }

@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'SlotsSectionAdvanced.g.dart';
 
 class SlotsSectionAdvanced extends EzStatefulWidgetBase {
+	SlotsSectionAdvanced({ Key? key }) : super(key: key);
+
 	@override
 	SlotsSectionAdvancedState createState() => SlotsSectionAdvancedState();
 }

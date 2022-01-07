@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'BoundFieldsInCode.g.dart';
 
 class BoundFieldsInCode extends EzStatefulWidgetBase {
+	BoundFieldsInCode({ Key? key }) : super(key: key);
+
 	@override
 	BoundFieldsInCodeState createState() => BoundFieldsInCodeState();
 }

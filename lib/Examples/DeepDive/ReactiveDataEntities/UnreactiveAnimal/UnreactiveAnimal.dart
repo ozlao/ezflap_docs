@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'UnreactiveAnimal.g.dart';
 
 class UnreactiveAnimal extends EzStatefulWidgetBase {
+	UnreactiveAnimal({ Key? key }) : super(key: key);
+
 	@override
 	UnreactiveAnimalState createState() => UnreactiveAnimalState();
 }

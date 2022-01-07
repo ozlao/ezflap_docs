@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'BoundFieldsZBind1.g.dart';
 
 class BoundFieldsZBind1 extends EzStatefulWidgetBase {
+	BoundFieldsZBind1({ Key? key }) : super(key: key);
+
 	@override
 	BoundFieldsZBind1State createState() => BoundFieldsZBind1State();
 }

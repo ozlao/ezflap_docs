@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'MatchContainerInRow2.g.dart';
 
 class MatchContainerInRow2 extends EzStatefulWidgetBase {
+	MatchContainerInRow2({ Key? key }) : super(key: key);
+
 	@override
 	MatchContainerInRow2State createState() => MatchContainerInRow2State();
 }

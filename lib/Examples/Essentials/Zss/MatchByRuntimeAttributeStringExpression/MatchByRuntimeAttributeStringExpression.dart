@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'MatchByRuntimeAttributeStringExpression.g.dart';
 
 class MatchByRuntimeAttributeStringExpression extends EzStatefulWidgetBase {
+	MatchByRuntimeAttributeStringExpression({ Key? key }) : super(key: key);
+
 	@override
 	MatchByRuntimeAttributeStringExpressionState createState() => MatchByRuntimeAttributeStringExpressionState();
 }

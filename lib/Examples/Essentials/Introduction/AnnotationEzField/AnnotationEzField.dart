@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'AnnotationEzField.g.dart';
 
 class AnnotationEzField extends EzStatefulWidgetBase {
+	AnnotationEzField({ Key? key }) : super(key: key);
+
 	@override
 	AnnotationEzFieldState createState() => AnnotationEzFieldState();
 }

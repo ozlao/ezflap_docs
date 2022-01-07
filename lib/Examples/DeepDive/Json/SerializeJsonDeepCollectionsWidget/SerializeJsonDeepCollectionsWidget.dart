@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'SerializeJsonDeepCollectionsWidget.g.dart';
 
 class SerializeJsonDeepCollectionsWidget extends EzStatefulWidgetBase {
+	SerializeJsonDeepCollectionsWidget({ Key? key }) : super(key: key);
+
 	@override
 	SerializeJsonDeepCollectionsWidgetState createState() => SerializeJsonDeepCollectionsWidgetState();
 }

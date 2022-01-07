@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'PrefixlessAttributes.g.dart';
 
 class PrefixlessAttributes extends EzStatefulWidgetBase {
+	PrefixlessAttributes({ Key? key }) : super(key: key);
+
 	@override
 	PrefixlessAttributesState createState() => PrefixlessAttributesState();
 }

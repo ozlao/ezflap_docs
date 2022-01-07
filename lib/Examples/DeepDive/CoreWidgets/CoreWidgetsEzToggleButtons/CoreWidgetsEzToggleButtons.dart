@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzToggleButtons.g.dart';
 
 class CoreWidgetsEzToggleButtons extends EzStatefulWidgetBase {
+	CoreWidgetsEzToggleButtons({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzToggleButtonsState createState() => CoreWidgetsEzToggleButtonsState();
 }

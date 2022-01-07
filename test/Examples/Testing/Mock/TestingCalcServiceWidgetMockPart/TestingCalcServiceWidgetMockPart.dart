@@ -1,4 +1,6 @@
 
+// ignore_for_file: unused_element
+
 import 'package:ezflap_docs/Examples/Testing/Mock/TestingCalcService/TestingCalcService.dart';
 
 class _Mock_TestingCalcService extends TestingCalcService {

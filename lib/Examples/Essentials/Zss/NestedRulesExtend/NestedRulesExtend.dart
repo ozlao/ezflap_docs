@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'NestedRulesExtend.g.dart';
 
 class NestedRulesExtend extends EzStatefulWidgetBase {
+	NestedRulesExtend({ Key? key }) : super(key: key);
+
 	@override
 	NestedRulesExtendState createState() => NestedRulesExtendState();
 }

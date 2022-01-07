@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'EvaluationStop.g.dart';
 
 class EvaluationStop extends EzStatefulWidgetBase {
+	EvaluationStop({ Key? key }) : super(key: key);
+
 	@override
 	EvaluationStopState createState() => EvaluationStopState();
 }

@@ -7,6 +7,8 @@ import 'package:intl/intl.dart';
 part 'FormatAndFilter.g.dart';
 
 class FormatAndFilter extends EzStatefulWidgetBase {
+	FormatAndFilter({ Key? key }) : super(key: key);
+
 	@override
 	FormatAndFilterState createState() => FormatAndFilterState();
 }

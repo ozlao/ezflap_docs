@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'SlotsSectionWithDefaultHost.g.dart';
 
 class SlotsSectionWithDefaultHost extends EzStatefulWidgetBase {
+	SlotsSectionWithDefaultHost({ Key? key }) : super(key: key);
+
 	@override
 	SlotsSectionWithDefaultHostState createState() => SlotsSectionWithDefaultHostState();
 }

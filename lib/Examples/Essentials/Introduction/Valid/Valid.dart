@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'Valid.g.dart';
 
 class Valid extends EzStatefulWidgetBase {
+	Valid({ Key? key }) : super(key: key);
+
 	@override
 	ValidState createState() => ValidState();
 }

@@ -9,6 +9,8 @@ part 'RoutingAnimalProfileWithDefaults.g.dart';
 //       additional support that is not currently implemented in this documentation
 //       repository)
 class RoutingAnimalProfileWithDefaults extends EzStatefulWidgetBase {
+	RoutingAnimalProfileWithDefaults({ Key? key }) : super(key: key);
+
 	@override
 	RoutingAnimalProfileWithDefaultsState createState() => RoutingAnimalProfileWithDefaultsState();
 }

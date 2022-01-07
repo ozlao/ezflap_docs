@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'Disposal.g.dart';
 
 class Disposal extends EzStatefulWidgetBase {
+	Disposal({ Key? key }) : super(key: key);
+
 	@override
 	DisposalState createState() => DisposalState();
 }

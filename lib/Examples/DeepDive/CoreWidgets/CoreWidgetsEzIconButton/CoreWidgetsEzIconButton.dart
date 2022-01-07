@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzIconButton.g.dart';
 
 class CoreWidgetsEzIconButton extends EzStatefulWidgetBase {
+	CoreWidgetsEzIconButton({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzIconButtonState createState() => CoreWidgetsEzIconButtonState();
 }

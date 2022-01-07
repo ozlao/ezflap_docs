@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'SimpleTextButton.g.dart';
 
 class SimpleTextButton extends EzStatefulWidgetBase {
+	SimpleTextButton({ Key? key }) : super(key: key);
+
 	@override
 	SimpleTextButtonState createState() => SimpleTextButtonState();
 }

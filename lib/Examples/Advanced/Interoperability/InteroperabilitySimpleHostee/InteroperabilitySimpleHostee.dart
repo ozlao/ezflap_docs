@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'InteroperabilitySimpleHostee.g.dart';
 
 class InteroperabilitySimpleHostee extends EzStatefulWidgetBase {
+	InteroperabilitySimpleHostee({ Key? key }) : super(key: key);
+
 	@override
 	InteroperabilitySimpleHosteeState createState() => InteroperabilitySimpleHosteeState();
 }

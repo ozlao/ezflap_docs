@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'EventsOverviewHost.g.dart';
 
 class EventsOverviewHost extends EzStatefulWidgetBase {
+	EventsOverviewHost({ Key? key }) : super(key: key);
+
 	@override
 	EventsOverviewHostState createState() => EventsOverviewHostState();
 }

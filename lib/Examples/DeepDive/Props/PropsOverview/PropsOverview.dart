@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'PropsOverview.g.dart';
 
 class PropsOverview extends EzStatefulWidgetBase {
+	PropsOverview({ Key? key }) : super(key: key);
+
 	@override
 	PropsOverviewState createState() => PropsOverviewState();
 }

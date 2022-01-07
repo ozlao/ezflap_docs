@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part "MatchByAttribute.g.dart";
 
 class MatchByAttribute extends EzStatefulWidgetBase {
+	MatchByAttribute({ Key? key }) : super(key: key);
+
 	@override
 	MatchByAttributeState createState() => MatchByAttributeState();
 }

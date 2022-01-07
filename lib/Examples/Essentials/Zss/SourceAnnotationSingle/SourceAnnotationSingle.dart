@@ -6,6 +6,8 @@ import 'package:ezflap_docs/Examples/Essentials/Zss/SourceAnnotationSingle/Sourc
 part 'SourceAnnotationSingle.g.dart';
 
 class SourceAnnotationSingle extends EzStatefulWidgetBase {
+	SourceAnnotationSingle({ Key? key }) : super(key: key);
+
 	@override
 	SourceAnnotationSingleState createState() => SourceAnnotationSingleState();
 }

@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'Specificity.g.dart';
 
 class Specificity extends EzStatefulWidgetBase {
+	Specificity({ Key? key }) : super(key: key);
+
 	@override
 	SpecificityState createState() => SpecificityState();
 }

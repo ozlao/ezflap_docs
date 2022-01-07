@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'PositionalZBind.g.dart';
 
 class PositionalZBind extends EzStatefulWidgetBase {
+	PositionalZBind({ Key? key }) : super(key: key);
+
 	@override
 	PositionalZBindState createState() => PositionalZBindState();
 }

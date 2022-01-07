@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TwoNamedParameterTags.g.dart';
 
 class TwoNamedParameterTags extends EzStatefulWidgetBase {
+	TwoNamedParameterTags({ Key? key }) : super(key: key);
+
 	@override
 	TwoNamedParameterTagsState createState() => TwoNamedParameterTagsState();
 }

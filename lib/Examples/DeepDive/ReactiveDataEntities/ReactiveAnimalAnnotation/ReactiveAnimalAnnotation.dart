@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ReactiveAnimalAnnotation.g.dart';
 
 class ReactiveAnimalAnnotation extends EzStatefulWidgetBase {
+	ReactiveAnimalAnnotation({ Key? key }) : super(key: key);
+
 	@override
 	ReactiveAnimalAnnotationState createState() => ReactiveAnimalAnnotationState();
 }

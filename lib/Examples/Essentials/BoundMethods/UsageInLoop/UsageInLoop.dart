@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'UsageInLoop.g.dart';
 
 class UsageInLoop extends EzStatefulWidgetBase {
+	UsageInLoop({ Key? key }) : super(key: key);
+
 	@override
 	UsageInLoopState createState() => UsageInLoopState();
 }

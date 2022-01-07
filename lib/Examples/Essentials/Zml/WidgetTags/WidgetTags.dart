@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'WidgetTags.g.dart';
 
 class WidgetTags extends EzStatefulWidgetBase {
+	WidgetTags({ Key? key }) : super(key: key);
+
 	@override
 	WidgetTagsState createState() => WidgetTagsState();
 }

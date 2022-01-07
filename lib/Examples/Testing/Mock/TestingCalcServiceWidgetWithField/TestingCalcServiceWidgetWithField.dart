@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'TestingCalcServiceWidgetWithField.g.dart';
 
 class TestingCalcServiceWidgetWithField extends EzStatefulWidgetBase {
+	TestingCalcServiceWidgetWithField({ Key? key }) : super(key: key);
+
 	@override
 	TestingCalcServiceWidgetWithFieldState createState() => TestingCalcServiceWidgetWithFieldState();
 }

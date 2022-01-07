@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'PropsSyntaxDefaultValue.g.dart';
 
 class PropsSyntaxDefaultValue extends EzStatefulWidgetBase {
+	PropsSyntaxDefaultValue({ Key? key }) : super(key: key);
+
 	@override
 	PropsSyntaxDefaultValueState createState() => PropsSyntaxDefaultValueState();
 }

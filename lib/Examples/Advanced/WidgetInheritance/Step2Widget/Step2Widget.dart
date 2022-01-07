@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'Step2Widget.g.dart';
 
 class Step2Widget extends EzStatefulWidgetBase {
+	Step2Widget({ Key? key }) : super(key: key);
+
 	@override
 	Step2WidgetState createState() => Step2WidgetState();
 }

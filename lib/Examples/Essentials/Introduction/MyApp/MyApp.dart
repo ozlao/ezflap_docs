@@ -6,6 +6,8 @@ import '../MyHomePage/MyHomePage.dart';
 part 'MyApp.g.dart';
 
 class MyApp extends EzStatefulWidgetBase {
+	MyApp({ Key? key }) : super(key: key);
+
 	@override
 	MyAppState createState() => MyAppState();
 }

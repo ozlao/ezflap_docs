@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ComputedOverview.g.dart';
 
 class ComputedOverview extends EzStatefulWidgetBase {
+	ComputedOverview({ Key? key }) : super(key: key);
+
 	@override
 	ComputedOverviewState createState() => ComputedOverviewState();
 }

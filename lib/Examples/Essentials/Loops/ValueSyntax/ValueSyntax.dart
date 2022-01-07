@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ValueSyntax.g.dart';
 
 class ValueSyntax extends EzStatefulWidgetBase {
+	ValueSyntax({ Key? key }) : super(key: key);
+
 	@override
 	ValueSyntaxState createState() => ValueSyntaxState();
 }

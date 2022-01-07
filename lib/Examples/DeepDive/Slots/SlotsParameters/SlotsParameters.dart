@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'SlotsParameters.g.dart';
 
 class SlotsParameters extends EzStatefulWidgetBase {
+	SlotsParameters({ Key? key }) : super(key: key);
+
 	@override
 	SlotsParametersState createState() => SlotsParametersState();
 }

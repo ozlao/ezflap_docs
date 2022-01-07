@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'TestingRouteParams.g.dart';
 
 class TestingRouteParams extends EzStatefulWidgetBase {
+	TestingRouteParams({ Key? key }) : super(key: key);
+
 	@override
 	TestingRouteParamsState createState() => TestingRouteParamsState();
 }

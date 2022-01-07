@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ProvideZmlConstant.g.dart';
 
 class ProvideZmlConstant extends EzStatefulWidgetBase {
+	ProvideZmlConstant({ Key? key }) : super(key: key);
+
 	@override
 	ProvideZmlConstantState createState() => ProvideZmlConstantState();
 }

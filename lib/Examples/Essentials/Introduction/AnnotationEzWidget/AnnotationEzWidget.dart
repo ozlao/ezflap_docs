@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'AnnotationEzWidget.g.dart';
 
 class AnnotationEzWidget extends EzStatefulWidgetBase {
+	AnnotationEzWidget({ Key? key }) : super(key: key);
+
 	@override
 	AnnotationEzWidgetState createState() => AnnotationEzWidgetState();
 }

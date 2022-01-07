@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'AppliedEffects.g.dart';
 
 class AppliedEffects extends EzStatefulWidgetBase {
+	AppliedEffects({ Key? key }) : super(key: key);
+
 	@override
 	AppliedEffectsState createState() => AppliedEffectsState();
 }

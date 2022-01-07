@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'SerializeJsonAnimalToMapWidget.g.dart';
 
 class SerializeJsonAnimalToMapWidget extends EzStatefulWidgetBase {
+	SerializeJsonAnimalToMapWidget({ Key? key }) : super(key: key);
+
 	@override
 	SerializeJsonAnimalToMapWidgetState createState() => SerializeJsonAnimalToMapWidgetState();
 }

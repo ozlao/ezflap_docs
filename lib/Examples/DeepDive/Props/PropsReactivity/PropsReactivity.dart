@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'PropsReactivity.g.dart';
 
 class PropsReactivity extends EzStatefulWidgetBase {
+	PropsReactivity({ Key? key }) : super(key: key);
+
 	@override
 	PropsReactivityState createState() => PropsReactivityState();
 }

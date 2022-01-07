@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'ZBind3.g.dart';
 
 class ZBind3 extends EzStatefulWidgetBase {
+	ZBind3({ Key? key }) : super(key: key);
+
 	@override
 	ZBind3State createState() => ZBind3State();
 }

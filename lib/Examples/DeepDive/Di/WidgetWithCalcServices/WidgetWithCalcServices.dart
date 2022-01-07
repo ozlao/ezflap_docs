@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 part 'WidgetWithCalcServices.g.dart';
 
 class WidgetWithCalcServices extends EzStatefulWidgetBase {
+	WidgetWithCalcServices({ Key? key }) : super(key: key);
+
 	@override
 	WidgetWithCalcServicesState createState() => WidgetWithCalcServicesState();
 }

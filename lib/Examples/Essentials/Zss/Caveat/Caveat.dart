@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'Caveat.g.dart';
 
 class Caveat extends EzStatefulWidgetBase {
+	Caveat({ Key? key }) : super(key: key);
+
 	@override
 	CaveatState createState() => CaveatState();
 }

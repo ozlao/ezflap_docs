@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'MatchByEnumAttribute.g.dart';
 
 class MatchByEnumAttribute extends EzStatefulWidgetBase {
+	MatchByEnumAttribute({ Key? key }) : super(key: key);
+
 	@override
 	MatchByEnumAttributeState createState() => MatchByEnumAttributeState();
 }

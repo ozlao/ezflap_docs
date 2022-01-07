@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 part 'TestingHostWidgetWithRef.g.dart';
 
 class TestingHostWidgetWithRef extends EzStatefulWidgetBase {
+	TestingHostWidgetWithRef({ Key? key }) : super(key: key);
+
 	@override
 	TestingHostWidgetWithRefState createState() => TestingHostWidgetWithRefState();
 }

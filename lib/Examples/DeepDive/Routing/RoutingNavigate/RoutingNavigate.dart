@@ -9,6 +9,8 @@ part 'RoutingNavigate.g.dart';
 //       additional support that is not currently implemented in this documentation
 //       repository)
 class RoutingNavigate extends EzStatefulWidgetBase {
+	RoutingNavigate({ Key? key }) : super(key: key);
+
 	@override
 	RoutingNavigateState createState() => RoutingNavigateState();
 }

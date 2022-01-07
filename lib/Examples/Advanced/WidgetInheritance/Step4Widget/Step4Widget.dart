@@ -1,14 +1,16 @@
 
-	import 'package:ezflap/ezflap.dart';
-	import 'package:ezflap_docs/Examples/Advanced/WidgetInheritance/MiddleWidget/MiddleWidget.dart';
-	import 'package:flutter/material.dart';
+import 'package:ezflap/ezflap.dart';
+import 'package:ezflap_docs/Examples/Advanced/WidgetInheritance/MiddleWidget/MiddleWidget.dart';
+import 'package:flutter/material.dart';
 
-	part 'Step4Widget.g.dart';
+part 'Step4Widget.g.dart';
 
-	class Step4Widget extends EzStatefulWidgetBase {
-		@override
-		Step4WidgetState createState() => Step4WidgetState();
-	}
+class Step4Widget extends EzStatefulWidgetBase {
+	Step4Widget({ Key? key }) : super(key: key);
+
+	@override
+	Step4WidgetState createState() => Step4WidgetState();
+}
 
 @EzWidget(extend: MiddleWidgetState)
 class Step4WidgetState extends _EzStateBase {

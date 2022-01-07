@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'InteroperabilityDualHostEzFlap.g.dart';
 
 class InteroperabilityDualHostEzFlap extends EzStatefulWidgetBase {
+	InteroperabilityDualHostEzFlap({ Key? key }) : super(key: key);
+
 	@override
 	InteroperabilityDualHostEzFlapState createState() => InteroperabilityDualHostEzFlapState();
 }

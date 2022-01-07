@@ -7,6 +7,8 @@ import 'package:get/get.dart';
 part 'ValueSyntaxWithRx.g.dart';
 
 class ValueSyntaxWithRx extends EzStatefulWidgetBase {
+	ValueSyntaxWithRx({ Key? key }) : super(key: key);
+
 	@override
 	ValueSyntaxWithRxState createState() => ValueSyntaxWithRxState();
 }

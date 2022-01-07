@@ -7,6 +7,8 @@ import 'package:get/get.dart';
 part 'ReactiveAnimalRx.g.dart';
 
 class ReactiveAnimalRx extends EzStatefulWidgetBase {
+	ReactiveAnimalRx({ Key? key }) : super(key: key);
+
 	@override
 	ReactiveAnimalRxState createState() => ReactiveAnimalRxState();
 }

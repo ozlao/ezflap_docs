@@ -10,6 +10,8 @@ import 'package:flutter/material.dart';
 part 'DiAnimals.g.dart';
 
 class DiAnimals extends EzStatefulWidgetBase {
+	DiAnimals({ Key? key }) : super(key: key);
+
 	@override
 	DiAnimalsState createState() => DiAnimalsState();
 }

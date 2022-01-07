@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TextsInColumn.g.dart';
 
 class TextsInColumn extends EzStatefulWidgetBase {
+	TextsInColumn({ Key? key }) : super(key: key);
+
 	@override
 	TextsInColumnState createState() => TextsInColumnState();
 }

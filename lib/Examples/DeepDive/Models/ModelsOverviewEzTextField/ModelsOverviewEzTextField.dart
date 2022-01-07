@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'ModelsOverviewEzTextField.g.dart';
 
 class ModelsOverviewEzTextField extends EzStatefulWidgetBase {
+	ModelsOverviewEzTextField({ Key? key }) : super(key: key);
+
 	@override
 	ModelsOverviewEzTextFieldState createState() => ModelsOverviewEzTextFieldState();
 }

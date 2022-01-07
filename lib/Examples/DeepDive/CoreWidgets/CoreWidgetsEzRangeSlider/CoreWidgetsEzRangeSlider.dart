@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzRangeSlider.g.dart';
 
 class CoreWidgetsEzRangeSlider extends EzStatefulWidgetBase {
+	CoreWidgetsEzRangeSlider({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzRangeSliderState createState() => CoreWidgetsEzRangeSliderState();
 }

@@ -9,6 +9,8 @@ import 'package:flutter/material.dart';
 part 'WizardWidget.g.dart';
 
 class WizardWidget extends EzStatefulWidgetBase {
+	WizardWidget({ Key? key }) : super(key: key);
+
 	@override
 	WizardWidgetState createState() => WizardWidgetState();
 }

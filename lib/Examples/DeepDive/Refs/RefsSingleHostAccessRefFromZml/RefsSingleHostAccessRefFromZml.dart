@@ -8,6 +8,8 @@ import 'package:flutter/widgets.dart';
 part 'RefsSingleHostAccessRefFromZml.g.dart';
 
 class RefsSingleHostAccessRefFromZml extends EzStatefulWidgetBase {
+	RefsSingleHostAccessRefFromZml({ Key? key }) : super(key: key);
+
 	@override
 	RefsSingleHostAccessRefFromZmlState createState() => RefsSingleHostAccessRefFromZmlState();
 }

@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzSlider.g.dart';
 
 class CoreWidgetsEzSlider extends EzStatefulWidgetBase {
+	CoreWidgetsEzSlider({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzSliderState createState() => CoreWidgetsEzSliderState();
 }

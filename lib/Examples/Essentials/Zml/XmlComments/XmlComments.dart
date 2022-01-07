@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'XmlComments.g.dart';
 
 class XmlComments extends EzStatefulWidgetBase {
+	XmlComments({ Key? key }) : super(key: key);
+
 	@override
 	_EzStateBase createState() => XmlCommentsState();
 }

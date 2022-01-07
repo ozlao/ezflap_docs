@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'MatchByRuntimeAttributeString.g.dart';
 
 class MatchByRuntimeAttributeString extends EzStatefulWidgetBase {
+	MatchByRuntimeAttributeString({ Key? key }) : super(key: key);
+
 	@override
 	MatchByRuntimeAttributeStringState createState() => MatchByRuntimeAttributeStringState();
 }

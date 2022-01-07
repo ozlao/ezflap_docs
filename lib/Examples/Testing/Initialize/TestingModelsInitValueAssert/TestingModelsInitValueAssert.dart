@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'TestingModelsInitValueAssert.g.dart';
 
 class TestingModelsInitValueAssert extends EzStatefulWidgetBase {
+	TestingModelsInitValueAssert({ Key? key }) : super(key: key);
+
 	@override
 	TestingModelsInitValueAssertState createState() => TestingModelsInitValueAssertState();
 }

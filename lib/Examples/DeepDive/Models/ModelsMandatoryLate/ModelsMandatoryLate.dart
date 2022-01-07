@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ModelsMandatoryLate.g.dart';
 
 class ModelsMandatoryLate extends EzStatefulWidgetBase {
+	ModelsMandatoryLate({ Key? key }) : super(key: key);
+
 	@override
 	ModelsMandatoryLateState createState() => ModelsMandatoryLateState();
 }

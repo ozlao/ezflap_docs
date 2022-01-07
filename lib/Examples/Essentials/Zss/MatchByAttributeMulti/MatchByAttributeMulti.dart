@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'MatchByAttributeMulti.g.dart';
 
 class MatchByAttributeMulti extends EzStatefulWidgetBase {
+	MatchByAttributeMulti({ Key? key }) : super(key: key);
+
 	@override
 	MatchByAttributeMultiState createState() => MatchByAttributeMultiState();
 }

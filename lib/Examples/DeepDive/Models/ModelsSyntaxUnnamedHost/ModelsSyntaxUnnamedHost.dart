@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'ModelsSyntaxUnnamedHost.g.dart';
 
 class ModelsSyntaxUnnamedHost extends EzStatefulWidgetBase {
+	ModelsSyntaxUnnamedHost({ Key? key }) : super(key: key);
+
 	@override
 	ModelsSyntaxUnnamedHostState createState() => ModelsSyntaxUnnamedHostState();
 }

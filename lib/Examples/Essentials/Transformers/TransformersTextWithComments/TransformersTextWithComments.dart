@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TransformersTextWithComments.g.dart';
 
 class TransformersTextWithComments extends EzStatefulWidgetBase {
+	TransformersTextWithComments({ Key? key }) : super(key: key);
+
 	@override
 	TransformersTextWithCommentsState createState() => TransformersTextWithCommentsState();
 }

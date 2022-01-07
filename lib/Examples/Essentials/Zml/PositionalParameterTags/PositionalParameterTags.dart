@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'PositionalParameterTags.g.dart';
 
 class PositionalParameterTags extends EzStatefulWidgetBase {
+	PositionalParameterTags({ Key? key }) : super(key: key);
+
 	@override
 	PositionalParameterTagsState createState() => PositionalParameterTagsState();
 }

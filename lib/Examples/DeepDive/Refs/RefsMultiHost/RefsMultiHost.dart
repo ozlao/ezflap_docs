@@ -9,6 +9,8 @@ import 'package:get/get.dart';
 part 'RefsMultiHost.g.dart';
 
 class RefsMultiHost extends EzStatefulWidgetBase {
+	RefsMultiHost({ Key? key }) : super(key: key);
+
 	@override
 	RefsMultiHostState createState() => RefsMultiHostState();
 }

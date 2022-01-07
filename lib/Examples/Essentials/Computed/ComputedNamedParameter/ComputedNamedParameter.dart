@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'ComputedNamedParameter.g.dart';
 
 class ComputedNamedParameter extends EzStatefulWidgetBase {
+	ComputedNamedParameter({ Key? key }) : super(key: key);
+
 	@override
 	ComputedNamedParameterState createState() => ComputedNamedParameterState();
 }

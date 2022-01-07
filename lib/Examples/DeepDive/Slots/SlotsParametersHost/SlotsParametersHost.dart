@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'SlotsParametersHost.g.dart';
 
 class SlotsParametersHost extends EzStatefulWidgetBase {
+	SlotsParametersHost({ Key? key }) : super(key: key);
+
 	@override
 	SlotsParametersHostState createState() => SlotsParametersHostState();
 }

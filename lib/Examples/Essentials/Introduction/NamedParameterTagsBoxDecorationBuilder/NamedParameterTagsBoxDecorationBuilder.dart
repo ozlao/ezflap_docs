@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'NamedParameterTagsBoxDecorationBuilder.g.dart';
 
 class NamedParameterTagsBoxDecorationBuilder extends EzStatefulWidgetBase {
+	NamedParameterTagsBoxDecorationBuilder({ Key? key }) : super(key: key);
+
 	@override
 	State<NamedParameterTagsBoxDecorationBuilder> createState() => NamedParameterTagsBoxDecorationBuilderState();
 }

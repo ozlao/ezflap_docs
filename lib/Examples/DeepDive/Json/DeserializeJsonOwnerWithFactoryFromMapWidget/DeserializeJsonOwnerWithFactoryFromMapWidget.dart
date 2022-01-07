@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'DeserializeJsonOwnerWithFactoryFromMapWidget.g.dart';
 
 class DeserializeJsonOwnerWithFactoryFromMapWidget extends EzStatefulWidgetBase {
+	DeserializeJsonOwnerWithFactoryFromMapWidget({ Key? key }) : super(key: key);
+
 	@override
 	DeserializeJsonOwnerWithFactoryFromMapWidgetState createState() => DeserializeJsonOwnerWithFactoryFromMapWidgetState();
 }

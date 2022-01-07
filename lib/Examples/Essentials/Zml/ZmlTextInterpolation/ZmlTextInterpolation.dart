@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'ZmlTextInterpolation.g.dart';
 
 class ZmlTextInterpolation extends EzStatefulWidgetBase {
+	ZmlTextInterpolation({ Key? key }) : super(key: key);
+
 	@override
 	ZmlTextInterpolationState createState() => ZmlTextInterpolationState();
 }

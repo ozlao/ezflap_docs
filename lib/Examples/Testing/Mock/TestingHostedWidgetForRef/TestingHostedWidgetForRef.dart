@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'TestingHostedWidgetForRef.g.dart';
 
 class TestingHostedWidgetForRef extends EzStatefulWidgetBase {
+	TestingHostedWidgetForRef({ Key? key }) : super(key: key);
+
 	@override
 	TestingHostedWidgetForRefState createState() => TestingHostedWidgetForRefState();
 }

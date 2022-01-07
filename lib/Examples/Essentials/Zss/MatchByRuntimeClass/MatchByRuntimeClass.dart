@@ -6,6 +6,8 @@ import 'package:get/get.dart';
 part 'MatchByRuntimeClass.g.dart';
 
 class MatchByRuntimeClass extends EzStatefulWidgetBase {
+	MatchByRuntimeClass({ Key? key }) : super(key: key);
+
 	@override
 	MatchByRuntimeClassState createState() => MatchByRuntimeClassState();
 }

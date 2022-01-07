@@ -10,6 +10,8 @@ import 'package:flutter/material.dart';
 part 'WizardWithFourStepsWidget.g.dart';
 
 class WizardWithFourStepsWidget extends EzStatefulWidgetBase {
+	WizardWithFourStepsWidget({ Key? key }) : super(key: key);
+
 	@override
 	WizardWithFourStepsWidgetState createState() => WizardWithFourStepsWidgetState();
 }

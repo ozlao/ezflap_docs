@@ -7,6 +7,8 @@ import 'package:intl/intl.dart';
 part 'FormatAndFilterReactive1.g.dart';
 
 class FormatAndFilterReactive1 extends EzStatefulWidgetBase {
+	FormatAndFilterReactive1({ Key? key }) : super(key: key);
+
 	@override
 	FormatAndFilterReactive1State createState() => FormatAndFilterReactive1State();
 }

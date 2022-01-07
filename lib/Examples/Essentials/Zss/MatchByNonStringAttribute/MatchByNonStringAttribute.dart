@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'MatchByNonStringAttribute.g.dart';
 
 class MatchByNonStringAttribute extends EzStatefulWidgetBase {
+	MatchByNonStringAttribute({ Key? key }) : super(key: key);
+
 	@override
 	MatchByNonStringAttributeState createState() => MatchByNonStringAttributeState();
 }

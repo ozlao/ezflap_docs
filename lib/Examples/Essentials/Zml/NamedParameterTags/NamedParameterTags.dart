@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'NamedParameterTags.g.dart';
 
 class NamedParameterTags extends EzStatefulWidgetBase {
+	NamedParameterTags({ Key? key }) : super(key: key);
+
 	@override
 	NamedParameterTagsState createState() => NamedParameterTagsState();
 }

@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'Invalid.g.dart';
 
 class Invalid extends EzStatefulWidgetBase {
+	Invalid({ Key? key }) : super(key: key);
+
 	@override
 	State<Invalid> createState() => InvalidState();
 }

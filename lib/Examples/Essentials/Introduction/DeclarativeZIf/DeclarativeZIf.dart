@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'DeclarativeZIf.g.dart';
 
 class DeclarativeZIf extends EzStatefulWidgetBase {
+	DeclarativeZIf({ Key? key }) : super(key: key);
+
 	@override
 	DeclarativeZIfState createState() => DeclarativeZIfState();
 }

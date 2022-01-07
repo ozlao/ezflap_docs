@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'TestingAccessDisabledHostWidget.g.dart';
 
 class TestingAccessDisabledHostWidget extends EzStatefulWidgetBase {
+	TestingAccessDisabledHostWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestingAccessDisabledHostWidgetState createState() => TestingAccessDisabledHostWidgetState();
 }

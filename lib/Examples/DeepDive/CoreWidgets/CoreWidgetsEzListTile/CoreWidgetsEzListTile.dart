@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzListTile.g.dart';
 
 class CoreWidgetsEzListTile extends EzStatefulWidgetBase {
+	CoreWidgetsEzListTile({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzListTileState createState() => CoreWidgetsEzListTileState();
 }
@@ -14,7 +16,7 @@ class CoreWidgetsEzListTile extends EzStatefulWidgetBase {
 class CoreWidgetsEzListTileState extends _EzStateBase {
 	/* ZML (8) **/
 	static const _ZML = """
-		<Container z-bind:height="300">
+		<SizedBox z-bind:height="300">
 			<ListView>
 				<EzListTile z-on:tap="onTapped1">
 					<leading-><Icon z-bind:0="Icons.arrow_circle_down" /></leading->
@@ -25,7 +27,7 @@ class CoreWidgetsEzListTileState extends _EzStateBase {
 					<title-><Text>Item 2. Taps: {{ counter2 }}</Text></title->
 				</EzListTile>
 			</ListView>
-		</Container>
+		</SizedBox>
 	""";
 
 

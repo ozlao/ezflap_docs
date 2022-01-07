@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'RefsMultiHosted.g.dart';
 
 class RefsMultiHosted extends EzStatefulWidgetBase {
+	RefsMultiHosted({ Key? key }) : super(key: key);
+
 	@override
 	RefsMultiHostedState createState() => RefsMultiHostedState();
 }

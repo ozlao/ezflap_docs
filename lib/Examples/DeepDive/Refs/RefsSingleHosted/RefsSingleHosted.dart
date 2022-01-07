@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'RefsSingleHosted.g.dart';
 
 class RefsSingleHosted extends EzStatefulWidgetBase {
+	RefsSingleHosted({ Key? key }) : super(key: key);
+
 	@override
 	RefsSingleHostedState createState() => RefsSingleHostedState();
 }

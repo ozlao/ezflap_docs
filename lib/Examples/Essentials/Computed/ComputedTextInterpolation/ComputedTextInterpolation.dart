@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ComputedTextInterpolation.g.dart';
 
 class ComputedTextInterpolation extends EzStatefulWidgetBase {
+	ComputedTextInterpolation({ Key? key }) : super(key: key);
+
 	@override
 	ComputedTextInterpolationState createState() => ComputedTextInterpolationState();
 }

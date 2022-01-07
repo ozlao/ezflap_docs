@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'SourceZssFile.g.dart';
 
 class SourceZssFile extends EzStatefulWidgetBase {
+	SourceZssFile({ Key? key }) : super(key: key);
+
 	@override
 	SourceZssFileState createState() => SourceZssFileState();
 }

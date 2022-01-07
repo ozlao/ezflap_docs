@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'SlotsSectionWithExplicitNamedParameter.g.dart';
 
 class SlotsSectionWithExplicitNamedParameter extends EzStatefulWidgetBase {
+	SlotsSectionWithExplicitNamedParameter({ Key? key }) : super(key: key);
+
 	@override
 	SlotsSectionWithExplicitNamedParameterState createState() => SlotsSectionWithExplicitNamedParameterState();
 }

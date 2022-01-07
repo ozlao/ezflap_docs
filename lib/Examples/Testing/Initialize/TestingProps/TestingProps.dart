@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'TestingProps.g.dart';
 
 class TestingProps extends EzStatefulWidgetBase {
+	TestingProps({ Key? key }) : super(key: key);
+
 	@override
 	TestingPropsState createState() => TestingPropsState();
 }

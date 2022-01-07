@@ -7,12 +7,13 @@ part 'InteroperabilityDualHostee.g.dart';
 
 class InteroperabilityDualHostee extends EzStatefulWidgetBase {
 	InteroperabilityDualHostee({
+		Key? key,
 		required String title,
 		required void Function() incrementCallback,
 		required int Function() counterGetter,
 		required void Function(int) counterSetter,
 		bool $fromZML = false,
-	}) {
+	}) : super(key: key) {
 		if ($fromZML) {
 			// will be initialized the ezFlap way
 			return;

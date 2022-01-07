@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'PropsOverviewHostNamedParameters.g.dart';
 
 class PropsOverviewHostNamedParameters extends EzStatefulWidgetBase {
+	PropsOverviewHostNamedParameters({ Key? key }) : super(key: key);
+
 	@override
 	PropsOverviewHostNamedParametersState createState() => PropsOverviewHostNamedParametersState();
 }

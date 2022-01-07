@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TwoNamedZBinds.g.dart';
 
 class TwoNamedZBinds extends EzStatefulWidgetBase {
+	TwoNamedZBinds({ Key? key }) : super(key: key);
+
 	@override
 	TwoNamedZBindsState createState() => TwoNamedZBindsState();
 }

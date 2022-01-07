@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'SyntaxNullable.g.dart';
 
 class SyntaxNullable extends EzStatefulWidgetBase {
+	SyntaxNullable({ Key? key }) : super(key: key);
+
 	@override
 	SyntaxNullableState createState() => SyntaxNullableState();
 }

@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'BoundFieldsZBind2.g.dart';
 
 class BoundFieldsZBind2 extends EzStatefulWidgetBase {
+	BoundFieldsZBind2({ Key? key }) : super(key: key);
+
 	@override
 	BoundFieldsZBind2State createState() => BoundFieldsZBind2State();
 }
@@ -29,7 +31,7 @@ class BoundFieldsZBind2State extends _EzStateBase {
 	@override
 	void hookInitState() {
 		this._counter = 0;
-		Timer.periodic(new Duration(seconds: 1), (Timer timer) {
+		Timer.periodic(Duration(seconds: 1), (Timer timer) {
 			this._counter++;
 		});
 	}

@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzRadioListTile.g.dart';
 
 class CoreWidgetsEzRadioListTile extends EzStatefulWidgetBase {
+	CoreWidgetsEzRadioListTile({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzRadioListTileState createState() => CoreWidgetsEzRadioListTileState();
 }

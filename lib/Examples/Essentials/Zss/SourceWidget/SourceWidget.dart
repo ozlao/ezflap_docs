@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'SourceWidget.g.dart';
 
 class SourceWidget extends EzStatefulWidgetBase {
+	SourceWidget({ Key? key }) : super(key: key);
+
 	@override
 	SourceWidgetState createState() => SourceWidgetState();
 }

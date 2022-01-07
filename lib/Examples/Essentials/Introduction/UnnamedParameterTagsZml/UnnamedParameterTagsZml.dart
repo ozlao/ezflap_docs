@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'UnnamedParameterTagsZml.g.dart';
 
 class UnnamedParameterTagsZml extends EzStatefulWidgetBase {
+	UnnamedParameterTagsZml({ Key? key }) : super(key: key);
+
 	@override
 	UnnamedParameterTagsZmlState createState() => UnnamedParameterTagsZmlState();
 }

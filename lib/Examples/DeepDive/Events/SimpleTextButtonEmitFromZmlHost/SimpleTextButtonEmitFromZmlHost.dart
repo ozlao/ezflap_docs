@@ -8,6 +8,8 @@ import 'package:get/get.dart';
 part 'SimpleTextButtonEmitFromZmlHost.g.dart';
 
 class SimpleTextButtonEmitFromZmlHost extends EzStatefulWidgetBase {
+	SimpleTextButtonEmitFromZmlHost({ Key? key }) : super(key: key);
+
 	@override
 	SimpleTextButtonEmitFromZmlHostState createState() => SimpleTextButtonEmitFromZmlHostState();
 }

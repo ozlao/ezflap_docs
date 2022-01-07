@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzDropdownButton.g.dart';
 
 class CoreWidgetsEzDropdownButton extends EzStatefulWidgetBase {
+	CoreWidgetsEzDropdownButton({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzDropdownButtonState createState() => CoreWidgetsEzDropdownButtonState();
 }
@@ -29,7 +31,7 @@ class CoreWidgetsEzDropdownButtonState extends _EzStateBase {
 
 
 	/* BOUND FIELDS (11) **/
-	@EzField("value") String? _$value = null; // --> this._value
+	@EzField("value") String? _$value; // --> this._value
 }
 
 

@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ComputedInCode.g.dart';
 
 class ComputedInCode extends EzStatefulWidgetBase {
+	ComputedInCode({ Key? key }) : super(key: key);
+
 	@override
 	ComputedInCodeState createState() => ComputedInCodeState();
 }

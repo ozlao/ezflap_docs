@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TransformersChildrenSimplified.g.dart';
 
 class TransformersChildrenSimplified extends EzStatefulWidgetBase {
+	TransformersChildrenSimplified({ Key? key }) : super(key: key);
+
 	@override
 	TransformersChildrenSimplifiedState createState() => TransformersChildrenSimplifiedState();
 }

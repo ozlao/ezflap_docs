@@ -8,6 +8,8 @@ import 'package:get/get.dart';
 part 'MultipleCountersWithEvents.g.dart';
 
 class MultipleCountersWithEvents extends EzStatefulWidgetBase {
+	MultipleCountersWithEvents({ Key? key }) : super(key: key);
+
 	@override
 	MultipleCountersWithEventsState createState() => MultipleCountersWithEventsState();
 }

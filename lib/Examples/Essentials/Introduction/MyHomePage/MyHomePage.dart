@@ -5,6 +5,8 @@ import 'package:ezflap/ezflap.dart';
 part 'MyHomePage.g.dart';
 
 class MyHomePage extends EzStatefulWidgetBase {
+	MyHomePage({ Key? key }) : super(key: key);
+
 	@override
 	MyHomePageState createState() => MyHomePageState();
 }

@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'InitialZML.g.dart';
 
 class InitialZML extends EzStatefulWidgetBase {
+	InitialZML({ Key? key }) : super(key: key);
+
 	@override
 	InitialZMLState createState() => InitialZMLState();
 }

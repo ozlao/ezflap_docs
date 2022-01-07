@@ -7,6 +7,8 @@ import 'ProvideZmlParameterZml.dart';
 part 'ProvideZmlParameter.g.dart';
 
 class ProvideZmlParameter extends EzStatefulWidgetBase {
+	ProvideZmlParameter({ Key? key }) : super(key: key);
+
 	@override
 	ProvideZmlParameterState createState() => ProvideZmlParameterState();
 }

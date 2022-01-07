@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'ComputedZBind1.g.dart';
 
 class ComputedZBind1 extends EzStatefulWidgetBase {
+	ComputedZBind1({ Key? key }) : super(key: key);
+
 	@override
 	ComputedZBind1State createState() => ComputedZBind1State();
 }

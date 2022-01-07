@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ZConstructor.g.dart';
 
 class ZConstructor extends EzStatefulWidgetBase {
+	ZConstructor({ Key? key }) : super(key: key);
+
 	@override
 	ZConstructorState createState() => ZConstructorState();
 }

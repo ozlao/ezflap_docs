@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'BoundMethodsNamedParameter.g.dart';
 
 class BoundMethodsNamedParameter extends EzStatefulWidgetBase {
+	BoundMethodsNamedParameter({ Key? key }) : super(key: key);
+
 	@override
 	BoundMethodsNamedParameterState createState() => BoundMethodsNamedParameterState();
 }

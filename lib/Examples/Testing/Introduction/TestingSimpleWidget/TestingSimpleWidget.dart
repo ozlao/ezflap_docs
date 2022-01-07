@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'TestingSimpleWidget.g.dart';
 
 class TestingSimpleWidget extends EzStatefulWidgetBase {
+	TestingSimpleWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestingSimpleWidgetState createState() => TestingSimpleWidgetState();
 }

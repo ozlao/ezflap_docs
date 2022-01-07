@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'WatchesOverview.g.dart';
 
 class WatchesOverview extends EzStatefulWidgetBase {
+	WatchesOverview({ Key? key }) : super(key: key);
+
 	@override
 	WatchesOverviewState createState() => WatchesOverviewState();
 }

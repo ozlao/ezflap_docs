@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 part 'InterpolatedTextHost.g.dart';
 
 class InterpolatedTextHost extends EzStatefulWidgetBase {
+	InterpolatedTextHost({ Key? key }) : super(key: key);
+
 	@override
 	InterpolatedTextHostState createState() => InterpolatedTextHostState();
 }

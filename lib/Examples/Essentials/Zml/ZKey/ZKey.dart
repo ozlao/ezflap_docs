@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ZKey.g.dart';
 
 class ZKey extends EzStatefulWidgetBase {
+	ZKey({ Key? key }) : super(key: key);
+
 	@override
 	ZKeyState createState() => ZKeyState();
 }

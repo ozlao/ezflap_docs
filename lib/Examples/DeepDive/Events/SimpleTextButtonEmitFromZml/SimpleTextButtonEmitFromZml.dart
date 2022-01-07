@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'SimpleTextButtonEmitFromZml.g.dart';
 
 class SimpleTextButtonEmitFromZml extends EzStatefulWidgetBase {
+	SimpleTextButtonEmitFromZml({ Key? key }) : super(key: key);
+
 	@override
 	SimpleTextButtonEmitFromZmlState createState() => SimpleTextButtonEmitFromZmlState();
 }

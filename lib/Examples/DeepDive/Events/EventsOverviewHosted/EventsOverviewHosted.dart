@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'EventsOverviewHosted.g.dart';
 
 class EventsOverviewHosted extends EzStatefulWidgetBase {
+	EventsOverviewHosted({ Key? key }) : super(key: key);
+
 	@override
 	EventsOverviewHostedState createState() => EventsOverviewHostedState();
 }

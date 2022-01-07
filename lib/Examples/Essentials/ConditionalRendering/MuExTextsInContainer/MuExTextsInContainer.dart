@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'MuExTextsInContainer.g.dart';
 
 class MuExTextsInContainer extends EzStatefulWidgetBase {
+	MuExTextsInContainer({ Key? key }) : super(key: key);
+
 	@override
 	MuExTextsInContainerState createState() => MuExTextsInContainerState();
 }

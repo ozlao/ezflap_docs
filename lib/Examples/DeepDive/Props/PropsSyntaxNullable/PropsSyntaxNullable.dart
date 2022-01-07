@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'PropsSyntaxNullable.g.dart';
 
 class PropsSyntaxNullable extends EzStatefulWidgetBase {
+	PropsSyntaxNullable({ Key? key }) : super(key: key);
+
 	@override
 	PropsSyntaxNullableState createState() => PropsSyntaxNullableState();
 }

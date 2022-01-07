@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzCheckboxListTile.g.dart';
 
 class CoreWidgetsEzCheckboxListTile extends EzStatefulWidgetBase {
+	CoreWidgetsEzCheckboxListTile({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzCheckboxListTileState createState() => CoreWidgetsEzCheckboxListTileState();
 }

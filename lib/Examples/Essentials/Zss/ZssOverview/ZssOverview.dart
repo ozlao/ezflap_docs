@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'ZssOverview.g.dart';
 
 class ZssOverview extends EzStatefulWidgetBase {
+	ZssOverview({ Key? key }) : super(key: key);
+
 	@override
 	ZssOverviewState createState() => ZssOverviewState();
 }

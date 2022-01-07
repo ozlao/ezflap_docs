@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzTextFormField.g.dart';
 
 class CoreWidgetsEzTextFormField extends EzStatefulWidgetBase {
+	CoreWidgetsEzTextFormField({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzTextFormFieldState createState() => CoreWidgetsEzTextFormFieldState();
 }

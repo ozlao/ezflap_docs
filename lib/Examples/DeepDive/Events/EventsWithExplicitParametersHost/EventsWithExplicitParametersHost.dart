@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'EventsWithExplicitParametersHost.g.dart';
 
 class EventsWithExplicitParametersHost extends EzStatefulWidgetBase {
+	EventsWithExplicitParametersHost({ Key? key }) : super(key: key);
+
 	@override
 	EventsWithExplicitParametersHostState createState() => EventsWithExplicitParametersHostState();
 }

@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'SlotsSectionHostWithoutZSlotProvider.g.dart';
 
 class SlotsSectionHostWithoutZSlotProvider extends EzStatefulWidgetBase {
+	SlotsSectionHostWithoutZSlotProvider({ Key? key }) : super(key: key);
+
 	@override
 	SlotsSectionHostWithoutZSlotProviderState createState() => SlotsSectionHostWithoutZSlotProviderState();
 }

@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'ZBuildWithBuilderStep2Widget.g.dart';
 
 class ZBuildWithBuilderStep2Widget extends EzStatefulWidgetBase {
+	ZBuildWithBuilderStep2Widget({ Key? key }) : super(key: key);
+
 	@override
 	ZBuildWithBuilderStep2WidgetState createState() => ZBuildWithBuilderStep2WidgetState();
 }

@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'ModelsOverviewHost.g.dart';
 
 class ModelsOverviewHost extends EzStatefulWidgetBase {
+	ModelsOverviewHost({ Key? key }) : super(key: key);
+
 	@override
 	ModelsOverviewHostState createState() => ModelsOverviewHostState();
 }

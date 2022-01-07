@@ -7,6 +7,8 @@ import 'SourceAnnotationMulti2Zss.dart';
 part 'SourceAnnotationMulti.g.dart';
 
 class SourceAnnotationMulti extends EzStatefulWidgetBase {
+	SourceAnnotationMulti({ Key? key }) : super(key: key);
+
 	@override
 	SourceAnnotationMultiState createState() => SourceAnnotationMultiState();
 }

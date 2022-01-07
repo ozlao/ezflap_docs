@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ModelsOptionalDefaultValue.g.dart';
 
 class ModelsOptionalDefaultValue extends EzStatefulWidgetBase {
+	ModelsOptionalDefaultValue({ Key? key }) : super(key: key);
+
 	@override
 	ModelsOptionalDefaultValueState createState() => ModelsOptionalDefaultValueState();
 }

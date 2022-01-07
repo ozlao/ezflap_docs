@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'MatchByRuntimePrefixlessAttribute.g.dart';
 
 class MatchByRuntimePrefixlessAttribute extends EzStatefulWidgetBase {
+	MatchByRuntimePrefixlessAttribute({ Key? key }) : super(key: key);
+
 	@override
 	MatchByRuntimePrefixlessAttributeState createState() => MatchByRuntimePrefixlessAttributeState();
 }

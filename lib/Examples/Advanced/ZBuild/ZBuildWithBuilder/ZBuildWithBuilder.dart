@@ -9,6 +9,8 @@ import 'package:flutter/material.dart';
 part 'ZBuildWithBuilder.g.dart';
 
 class ZBuildWithBuilder extends EzStatefulWidgetBase {
+	ZBuildWithBuilder({ Key? key }) : super(key: key);
+
 	@override
 	ZBuildWithBuilderState createState() => ZBuildWithBuilderState();
 }

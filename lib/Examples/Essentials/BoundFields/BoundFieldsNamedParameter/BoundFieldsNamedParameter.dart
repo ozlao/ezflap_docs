@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'BoundFieldsNamedParameter.g.dart';
 
 class BoundFieldsNamedParameter extends EzStatefulWidgetBase {
+	BoundFieldsNamedParameter({ Key? key }) : super(key: key);
+
 	@override
 	BoundFieldsNamedParameterState createState() => BoundFieldsNamedParameterState();
 }

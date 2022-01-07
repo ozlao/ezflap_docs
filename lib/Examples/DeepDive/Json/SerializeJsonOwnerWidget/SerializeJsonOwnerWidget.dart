@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 part 'SerializeJsonOwnerWidget.g.dart';
 
 class SerializeJsonOwnerWidget extends EzStatefulWidgetBase {
+	SerializeJsonOwnerWidget({ Key? key }) : super(key: key);
+
 	@override
 	SerializeJsonOwnerWidgetState createState() => SerializeJsonOwnerWidgetState();
 }

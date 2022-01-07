@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'PropsSyntaxLate.g.dart';
 
 class PropsSyntaxLate extends EzStatefulWidgetBase {
+	PropsSyntaxLate({ Key? key }) : super(key: key);
+
 	@override
 	PropsSyntaxLateState createState() => PropsSyntaxLateState();
 }

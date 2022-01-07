@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'ZIfWithZShow.g.dart';
 
 class ZIfWithZShow extends EzStatefulWidgetBase {
+	ZIfWithZShow({ Key? key }) : super(key: key);
+
 	@override
 	ZIfWithZShowState createState() => ZIfWithZShowState();
 }

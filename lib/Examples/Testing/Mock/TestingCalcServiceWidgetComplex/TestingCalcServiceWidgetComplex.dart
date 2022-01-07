@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'TestingCalcServiceWidgetComplex.g.dart';
 
 class TestingCalcServiceWidgetComplex extends EzStatefulWidgetBase {
+	TestingCalcServiceWidgetComplex({ Key? key }) : super(key: key);
+
 	@override
 	TestingCalcServiceWidgetComplexState createState() => TestingCalcServiceWidgetComplexState();
 }

@@ -7,6 +7,8 @@ import 'package:get/get.dart';
 part 'CoreWidgetsEzTextButton.g.dart';
 
 class CoreWidgetsEzTextButton extends EzStatefulWidgetBase {
+	CoreWidgetsEzTextButton({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzTextButtonState createState() => CoreWidgetsEzTextButtonState();
 }

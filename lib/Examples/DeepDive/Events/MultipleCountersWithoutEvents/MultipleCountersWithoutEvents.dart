@@ -6,6 +6,8 @@ import 'package:get/get.dart';
 part 'MultipleCountersWithoutEvents.g.dart';
 
 class MultipleCountersWithoutEvents extends EzStatefulWidgetBase {
+	MultipleCountersWithoutEvents({ Key? key }) : super(key: key);
+
 	@override
 	MultipleCountersWithoutEventsState createState() => MultipleCountersWithoutEventsState();
 }

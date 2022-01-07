@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'BoundMethodsOverview.g.dart';
 
 class BoundMethodsOverview extends EzStatefulWidgetBase {
+	BoundMethodsOverview({ Key? key }) : super(key: key);
+
 	@override
 	BoundMethodsOverviewState createState() => BoundMethodsOverviewState();
 }

@@ -11,6 +11,8 @@ import 'WidgetDescriptor/WidgetDescriptor.dart';
 part "MyApp.g.dart";
 
 class MyApp extends EzStatefulWidgetBase {
+	MyApp({ Key? key }) : super(key: key);
+
 	@override
 	MyAppState createState() => MyAppState();
 }
@@ -52,7 +54,7 @@ class MyAppState extends _EzStateBase {
 										<Expanded>
 											<EzTextField z-on:changed="onChangedSearch()" z-model="searchText" class="searchField" />
 										</Expanded>
-										<EzIconButton z-key="next"
+										<EzIconButton key="next"
 											z-on:pressed="next()"
 											z-bind:isDisabled="!canGoForward"
 											z-bind:icon="Icon(Icons.arrow_forward_ios)"
@@ -62,7 +64,7 @@ class MyAppState extends _EzStateBase {
 									<Divider z-bind:height="30" z-bind:thickness="2" />
 									
 									<ZGroup z-if="arrWidgetDescriptors.isNotEmpty">
-										<Container z-if="arrWidgetDescriptors.isNotEmpty" z-bind:height="300">
+										<SizedBox z-if="arrWidgetDescriptors.isNotEmpty" z-bind:height="300">
 											<SingleChildScrollView>
 												<Column>
 													<EzRadioListTile z-model="value"
@@ -72,7 +74,7 @@ class MyAppState extends _EzStateBase {
 													/>
 												</Column>
 											</SingleChildScrollView>
-										</Container>
+										</SizedBox>
 										
 										<Divider z-bind:height="30" z-bind:thickness="10" />
 										

@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class InteroperabilityDualHostNative extends StatefulWidget {
+	const InteroperabilityDualHostNative({ Key? key }) : super(key: key);
+
 	@override
 	InteroperabilityDualHostNativeState createState() => InteroperabilityDualHostNativeState();
 }

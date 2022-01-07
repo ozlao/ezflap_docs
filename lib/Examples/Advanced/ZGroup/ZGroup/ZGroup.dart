@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'ZGroup.g.dart';
 
 class ZGroup extends EzStatefulWidgetBase {
+	ZGroup({ Key? key }) : super(key: key);
+
 	@override
 	ZGroupState createState() => ZGroupState();
 }

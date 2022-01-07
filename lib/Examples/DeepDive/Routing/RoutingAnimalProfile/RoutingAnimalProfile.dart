@@ -9,6 +9,8 @@ part 'RoutingAnimalProfile.g.dart';
 //       additional support that is not currently implemented in this documentation
 //       repository)
 class RoutingAnimalProfile extends EzStatefulWidgetBase {
+	RoutingAnimalProfile({ Key? key }) : super(key: key);
+
 	@override
 	RoutingAnimalProfileState createState() => RoutingAnimalProfileState();
 }

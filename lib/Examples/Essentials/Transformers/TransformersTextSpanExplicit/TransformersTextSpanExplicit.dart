@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TransformersTextSpanExplicit.g.dart';
 
 class TransformersTextSpanExplicit extends EzStatefulWidgetBase {
+	TransformersTextSpanExplicit({ Key? key }) : super(key: key);
+
 	@override
 	TransformersTextSpanExplicitState createState() => TransformersTextSpanExplicitState();
 }

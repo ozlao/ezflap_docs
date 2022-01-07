@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'Comments.g.dart';
 
 class Comments extends EzStatefulWidgetBase {
+	Comments({ Key? key }) : super(key: key);
+
 	@override
 	CommentsState createState() => CommentsState();
 }

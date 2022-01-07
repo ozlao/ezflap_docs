@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'BoundMethodsInCode.g.dart';
 
 class BoundMethodsInCode extends EzStatefulWidgetBase {
+	BoundMethodsInCode({ Key? key }) : super(key: key);
+
 	@override
 	BoundMethodsInCodeState createState() => BoundMethodsInCodeState();
 }

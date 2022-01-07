@@ -7,6 +7,8 @@ import 'package:flutter/widgets.dart';
 part 'SlotsSectionWithExplicitNamedParameterHost.g.dart';
 
 class SlotsSectionWithExplicitNamedParameterHost extends EzStatefulWidgetBase {
+	SlotsSectionWithExplicitNamedParameterHost({ Key? key }) : super(key: key);
+
 	@override
 	SlotsSectionWithExplicitNamedParameterHostState createState() => SlotsSectionWithExplicitNamedParameterHostState();
 }

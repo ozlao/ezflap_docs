@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'BoundFieldsOverview.g.dart';
 
 class BoundFieldsOverview extends EzStatefulWidgetBase {
+	BoundFieldsOverview({ Key? key }) : super(key: key);
+
 	@override
 	BoundFieldsOverviewState createState() => BoundFieldsOverviewState();
 }

@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'AnnotationEzMethod.g.dart';
 
 class AnnotationEzMethod extends EzStatefulWidgetBase {
+	AnnotationEzMethod({ Key? key }) : super(key: key);
+
 	@override
 	AnnotationEzMethodState createState() => AnnotationEzMethodState();
 }

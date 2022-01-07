@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part 'BoundMethodsZBind2.g.dart';
 
 class BoundMethodsZBind2 extends EzStatefulWidgetBase {
+	BoundMethodsZBind2({ Key? key }) : super(key: key);
+
 	@override
 	BoundMethodsZBind2State createState() => BoundMethodsZBind2State();
 }

@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'TestingEmits.g.dart';
 
 class TestingEmits extends EzStatefulWidgetBase {
+	TestingEmits({ Key? key }) : super(key: key);
+
 	@override
 	TestingEmitsState createState() => TestingEmitsState();
 }

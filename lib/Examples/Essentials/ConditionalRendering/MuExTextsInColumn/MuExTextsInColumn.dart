@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'MuExTextsInColumn.g.dart';
 
 class MuExTextsInColumn extends EzStatefulWidgetBase {
+	MuExTextsInColumn({ Key? key }) : super(key: key);
+
 	@override
 	MuExTextsInColumnState createState() => MuExTextsInColumnState();
 }

@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'CoreWidgetsEzGestureDetector.g.dart';
 
 class CoreWidgetsEzGestureDetector extends EzStatefulWidgetBase {
+	CoreWidgetsEzGestureDetector({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzGestureDetectorState createState() => CoreWidgetsEzGestureDetectorState();
 }

@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TextInterpolationAdvanced.g.dart';
 
 class TextInterpolationAdvanced extends EzStatefulWidgetBase {
+	TextInterpolationAdvanced({ Key? key }) : super(key: key);
+
 	@override
 	TextInterpolationAdvancedState createState() => TextInterpolationAdvancedState();
 }

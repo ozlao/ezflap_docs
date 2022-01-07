@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'BoundFieldsTextInterpolation.g.dart';
 
 class BoundFieldsTextInterpolation extends EzStatefulWidgetBase {
+	BoundFieldsTextInterpolation({ Key? key }) : super(key: key);
+
 	@override
 	BoundFieldsTextInterpolationState createState() => BoundFieldsTextInterpolationState();
 }

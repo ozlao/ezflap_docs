@@ -6,6 +6,8 @@ import 'package:get/get.dart';
 part 'ZBind4.g.dart';
 
 class ZBind4 extends EzStatefulWidgetBase {
+	ZBind4({ Key? key }) : super(key: key);
+
 	@override
 	ZBind4State createState() => ZBind4State();
 }

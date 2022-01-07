@@ -7,6 +7,8 @@ import 'package:get/get.dart';
 part 'CoreWidgetsEzElevatedButton.g.dart';
 
 class CoreWidgetsEzElevatedButton extends EzStatefulWidgetBase {
+	CoreWidgetsEzElevatedButton({ Key? key }) : super(key: key);
+
 	@override
 	CoreWidgetsEzElevatedButtonState createState() => CoreWidgetsEzElevatedButtonState();
 }

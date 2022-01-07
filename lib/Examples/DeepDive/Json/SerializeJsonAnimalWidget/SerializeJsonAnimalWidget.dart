@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part 'SerializeJsonAnimalWidget.g.dart';
 
 class SerializeJsonAnimalWidget extends EzStatefulWidgetBase {
+	SerializeJsonAnimalWidget({ Key? key }) : super(key: key);
+
 	@override
 	SerializeJsonAnimalWidgetState createState() => SerializeJsonAnimalWidgetState();
 }
