@@ -193,11 +193,10 @@ Unlike Parameter Tags, Class Tags can have attributes.
 There are different kinds of special-purpose attributes and attribute prefixes; they will be covered in depth in the
 remainder of this guide.
 
-For now, we will focus on four of them:
+For now, we will focus on three of them:
  * Attribute prefix: `z-bind`.
  * Prefix-less attributes.
  * The `z-constructor` attribute.
- * The `z-key` attribute.
 
 ### z-bind
 
@@ -229,6 +228,7 @@ positional parameter.
  * They can be assigned only Dart expressions.
    * (i.e. and not Class Tags).
 
+
 ### Without prefix
 
 Another type of attributes is prefix-less attributes.
@@ -248,6 +248,17 @@ expression.
 
 Prefix-less attributes can also be matched against by [ZSS Selectors](/essentials/zss/zss.html#selectors).
 
+::: tip KEYS
+When a prefix-less `key` attribute is used - a _String_ key is created automatically.
+
+For example:
+
+#### Widget
+![PrefixlessKeyAttribute](./assets/PrefixlessKeyAttribute.png)
+
+##### Builder
+![PrefixlessKeyAttributeBuilder](./assets/PrefixlessKeyAttributeBuilder.png)
+:::
 
 ## Text Processing
 ezFlap supports Mustache-like text interpolation.
@@ -294,19 +305,6 @@ For example, if we want to use the `Text.rich()` constructor of `<Text>`, we can
 #### Builder
 ![ZConstructorBuilder.png](./assets/ZConstructorBuilder.png)
 
-### z-key
-Native Flutter widgets accept a `Key` parameter.
-
-This parameter can be provided as any other parameter, using a Named Parameter Tag or `z-bind`.
-
-ezFlap offers a simple shortcut to provide string keys, using the `z-key` attribute:
-
-![ZKey.png](./assets/ZKey.png)
-
-#### Builder
-![ZKeyBuilder.png](./assets/ZKeyBuilder.png)
-
-Note that `z-key` accepts a literal string, and not a Dart expression.
 
 ## Comments
 

@@ -7,7 +7,7 @@ Core Widgets "convert" native Flutter behaviors to the ezFlap approach.
 
 For example, Core Widgets converts Flutter event callbacks to ezFlap events that are handled with `z-on`.
 
-As another example, for input widgets, Core Widgets allow to get and set the input using `z-model`.
+As another example, for input widgets, Core Widgets allow getting and set the input using `z-model`.
 
 Core Widgets accept all the native parameters their wrapped Flutter widget accepts, except for parameters that are
 handled with the ezFlap approach instead.
@@ -20,7 +20,16 @@ Core Widgets are named after the native Flutter widgets they wrap, with the pref
 All Core Widgets are listed below, in alphabetical order.
 
 
+### Keys
+All Core Widgets accept a `key` prop, of type _Key_.
 
+The value passed in this prop is passed down to the hosted native widget.
+
+::: tip KEY NOT APPLIED TO THE CORE WIDGET ITSELF
+Note that the key is **only** passed down to the hosted widget, and is **not** applied for the Core Widget itself.
+
+This is useful in testing, when we normally want to find the actual input widgets and not their wrapper Core Widget.
+:::
 
 
 ## EzCheckboxListTile

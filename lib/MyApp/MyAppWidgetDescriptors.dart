@@ -105,7 +105,6 @@ import 'package:ezflap_docs/Examples/Essentials/Zml/PositionalParameterTags/Posi
 import 'package:ezflap_docs/Examples/Essentials/Zml/ProvideZmlParameter/ProvideZmlParameter.dart';
 import 'package:ezflap_docs/Examples/Essentials/Zml/ProvideZmlConstant/ProvideZmlConstant.dart';
 import 'package:ezflap_docs/Examples/Essentials/Zml/ZConstructor/ZConstructor.dart';
-import 'package:ezflap_docs/Examples/Essentials/Zml/ZKey/ZKey.dart';
 import 'package:ezflap_docs/Examples/Essentials/Zml/Comments/Comments.dart';
 import 'package:ezflap_docs/Examples/Essentials/Zml/MultipleUnnamedParameterTags/MultipleUnnamedParameterTags.dart';
 import 'package:ezflap_docs/Examples/Essentials/Zml/PositionalZBind/PositionalZBind.dart';
@@ -300,7 +299,6 @@ abstract class MyAppWidgetDescriptors {
 		WidgetDescriptor(key: "ZmlProvideZmlParameter", groupPriority: _PRIORITY_ESSENTIALS, title: "Essentials / Zml / ProvideZmlParameter", funcWidgetFactory: () => ProvideZmlParameter()),
 		WidgetDescriptor(key: "ZmlProvideZmlConstant", groupPriority: _PRIORITY_ESSENTIALS, title: "Essentials / Zml / ProvideZmlConstant", funcWidgetFactory: () => ProvideZmlConstant()),
 		WidgetDescriptor(key: "ZmlZConstructor", groupPriority: _PRIORITY_ESSENTIALS, title: "Essentials / Zml / ZConstructor", funcWidgetFactory: () => ZConstructor()),
-		WidgetDescriptor(key: "ZmlZKey", groupPriority: _PRIORITY_ESSENTIALS, title: "Essentials / Zml / ZKey", funcWidgetFactory: () => ZKey()),
 		WidgetDescriptor(key: "ZmlComments", groupPriority: _PRIORITY_ESSENTIALS, title: "Essentials / Zml / Comments", funcWidgetFactory: () => Comments()),
 		WidgetDescriptor(key: "ZmlMultipleUnnamedParameterTags", groupPriority: _PRIORITY_ESSENTIALS, title: "Essentials / Zml / MultipleUnnamedParameterTags", funcWidgetFactory: () => MultipleUnnamedParameterTags()),
 		WidgetDescriptor(key: "ZmlPositionalZBind", groupPriority: _PRIORITY_ESSENTIALS, title: "Essentials / Zml / PositionalZBind", funcWidgetFactory: () => PositionalZBind()),

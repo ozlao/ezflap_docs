@@ -23,6 +23,13 @@ It is also possible to pass data to Props using named parameter tags:
 
 ![PropsOverviewHostNamedParameters](./assets/PropsOverviewHostNamedParameters.png)
 
+::: tip KEYS
+When the hosted widget passes a key using the `z-bind:key` or `key` attributes, if the constructor of the hosted
+widget's non-state class (i.e. the class that extends _EzStatefulWidgetBase_) accepts a `key` named parameter - then
+the key provided by the host widget is passed to the constructor.
+
+If a `key` prop exists as well - the key is **also** passed to it.
+:::
 
 ::: warning REMEMBER TO IMPORT
 Remember to import the classes of the ezFlap widgets you use.

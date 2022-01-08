@@ -100,6 +100,16 @@ It will be covered thoroughly in [ZSS](/essentials/zss/zss.html).
 The generated code is written into a file named `<classs file name>.g.dart` (for example: `MyApp.g.dart` in MyApp
 [above](#myapp)).
 
+::: warning DISABLE HOT-RELOAD-ON-SAVE
+ezFlap works well with the Flutter hot-reload feature.
+
+However, code generation is not immediate, and if your IDE performs a hot-reload automatically on save - then it will
+not reload the latest code.
+
+It's best to disable hot-reload-on-save (and consider assigning a keyboard shortcut to it, instead).
+:::
+
+
 ## ezFlap Widget Classes
 ezFlap widgets are stateful widgets.
 

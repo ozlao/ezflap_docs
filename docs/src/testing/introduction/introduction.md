@@ -90,7 +90,7 @@ This is useful because in some cases, the UI may require an additional tick to u
 `Future<void> tapAndTick(String key) async`
 
 #### Description
-Finds a widget by a string key (e.g. that was provided in the ZML with `z-key`), taps on it, and pumps a tick.
+Finds a widget by a string key (e.g. that was provided in the ZML with a `key` attribute), taps on it, and pumps a tick.
 
 
 ### tapAndTickByFinder
