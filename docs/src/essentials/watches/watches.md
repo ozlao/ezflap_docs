@@ -41,7 +41,7 @@ Watches can watch any type of reactive value:
  * Bound fields.
  * Computed methods.
  * Props (covered later, in [Props](/deep-dive/props/props.html)).
- * Models (covered later, in [z-model](/deep-dive/z-model/z-model.html)).
+ * Models (covered later, in [Models](/deep-dive/models/models.html)).
  * Route parameters (covered later, in [Route Params](/deep-dive/routing/routing.html)).
 
 

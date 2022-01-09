@@ -1,5 +1,8 @@
 const {description} = require('../../package')
 
+// generate sitemap: https://www.xml-sitemaps.com/
+// check for broken links: https://www.brokenlinkcheck.com/
+
 module.exports = {
 	/**
 	 * Ref：https://v1.vuepress.vuejs.org/config/#title

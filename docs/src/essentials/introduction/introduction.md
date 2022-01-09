@@ -419,6 +419,7 @@ It is best to read it in order, because later parts depend on earlier parts.
 If you haven't installed the ezFlap package or the documentation examples project yet - now would be a good time to do
 that. Just follow the instructions in [Installation](/essentials/installation/installation.html).
 
-To get fully set up, be sure to furnish your IDE with Pink Sections, Live Templates, and the such, in [Tooling](/tooling/tooling.html).
+To get fully set up, be sure to furnish your IDE with [Pink Sections](/tooling/pink-sections/pink-sections.html) and
+[Live Templates](/tooling/live-templates/live-templates.html).
 
 Once you are all set up - proceed to the [ZML](/essentials/zml/zml.html) chapter.

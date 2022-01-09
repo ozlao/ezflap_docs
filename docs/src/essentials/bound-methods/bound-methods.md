@@ -135,7 +135,7 @@ We can implement this by creating a bound method that returns a method:
 
 ::: tip A BETTER WAY
 There is a better way to do such things, and avoid creating a bound method that returns a function, by using
-[ezFlap Widgets](/core-widgets/core-widgets.html) and [z-on](/deep-dive/events/events.html#z-on).
+[ezFlap Widgets](/deep-dive/core-widgets/core-widgets.html) and [z-on](/deep-dive/events/events.html#z-on).
 :::
 
 

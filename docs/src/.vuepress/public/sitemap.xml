@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.ezflap.io/</loc>
+  <lastmod>2022-01-08T17:18:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/introduction/introduction.html</loc>
+  <lastmod>2022-01-08T17:18:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/installation/installation.html</loc>
+  <lastmod>2022-01-08T17:19:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/zml/zml.html</loc>
+  <lastmod>2022-01-08T17:19:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/bound-fields/bound-fields.html</loc>
+  <lastmod>2022-01-08T17:18:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/loops/loops.html</loc>
+  <lastmod>2022-01-08T17:19:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/conditional-rendering/conditional-rendering.html</loc>
+  <lastmod>2022-01-08T17:18:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/computed/computed.html</loc>
+  <lastmod>2022-01-08T17:18:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/bound-methods/bound-methods.html</loc>
+  <lastmod>2022-01-08T17:19:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/watches/watches.html</loc>
+  <lastmod>2022-01-08T17:19:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/zss/zss.html</loc>
+  <lastmod>2022-01-08T17:19:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/life-cycle/life-cycle.html</loc>
+  <lastmod>2022-01-08T17:19:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/essentials/transformers/transformers.html</loc>
+  <lastmod>2022-01-08T17:18:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/props/props.html</loc>
+  <lastmod>2022-01-08T17:18:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/events/events.html</loc>
+  <lastmod>2022-01-08T17:18:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/models/models.html</loc>
+  <lastmod>2022-01-08T17:18:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/slots/slots.html</loc>
+  <lastmod>2022-01-08T17:18:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/refs/refs.html</loc>
+  <lastmod>2022-01-08T17:18:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/di/di.html</loc>
+  <lastmod>2022-01-08T17:18:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/reactive-data-entities/reactive-data-entities.html</loc>
+  <lastmod>2022-01-08T17:18:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/routing/routing.html</loc>
+  <lastmod>2022-01-08T17:18:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/json/json.html</loc>
+  <lastmod>2022-01-08T17:18:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html</loc>
+  <lastmod>2022-01-08T17:19:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/advanced/widget-inheritance/widget-inheritance.html</loc>
+  <lastmod>2022-01-08T17:19:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/advanced/z-build/z-build.html</loc>
+  <lastmod>2022-01-08T17:18:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/advanced/z-group/z-group.html</loc>
+  <lastmod>2022-01-08T17:18:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/advanced/interpolated-text/interpolated-text.html</loc>
+  <lastmod>2022-01-08T17:19:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/advanced/interoperability/interoperability.html</loc>
+  <lastmod>2022-01-08T17:18:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/testing/introduction/introduction.html</loc>
+  <lastmod>2022-01-08T17:18:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/testing/initialize/initialize.html</loc>
+  <lastmod>2022-01-08T17:18:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/testing/mock/mock.html</loc>
+  <lastmod>2022-01-08T17:18:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/tooling/pink-sections/pink-sections.html</loc>
+  <lastmod>2022-01-08T17:18:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/tooling/live-templates/live-templates.html</loc>
+  <lastmod>2022-01-08T17:19:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/tooling/enable-tabs/enable-tabs.html</loc>
+  <lastmod>2022-01-08T17:18:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/troubleshooting/build-errors/build-errors.html</loc>
+  <lastmod>2022-01-08T17:18:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/misc/code-of-conduct/code-of-conduct.html</loc>
+  <lastmod>2022-01-08T17:18:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/misc/contribute/contribute.html</loc>
+  <lastmod>2022-01-08T17:19:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ezflap.io/misc/code-style/code-style.html</loc>
+  <lastmod>2022-01-08T17:18:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
